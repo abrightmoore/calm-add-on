@@ -1,0 +1,40 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.twf_calm_carapice",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 14, 0]
+				},
+				{
+					"name": "chestplate",
+					"parent": "body",
+					"pivot": [0, 0, 0],
+					"binding": "'body'",
+					"cubes": [
+						{
+							"origin": [-5.81915, 3.59442, -4.59442],
+							"size": [10, 10, 10],
+							"pivot": [0, 9, 0],
+							"rotation": [45, -35, 90],
+							"uv": {
+								"north": {"uv": [2.5, 2.5], "uv_size": [2.5, 2.5]},
+								"east": {"uv": [0, 2.5], "uv_size": [2.5, 2.5]},
+								"up": {"uv": [2.5, 0], "uv_size": [2.5, 2.5]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

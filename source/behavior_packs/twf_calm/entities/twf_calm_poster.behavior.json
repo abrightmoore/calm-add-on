@@ -1,0 +1,248 @@
+{
+    "format_version": "1.19.40",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "twf_calm:poster",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "components": {
+			"minecraft:loot": {
+                "table": "loot_tables/entities/twf/calm/poster_loot.json"
+            },
+            "minecraft:nameable": {
+                "allow_name_tag_renaming": false,
+                "always_show": false
+            },
+            "minecraft:damage_sensor": {
+                "triggers": {
+                    "cause": "all",
+                    "deals_damage": false
+                }
+            },
+			"minecraft:collision_box": {
+				"width": 0.0,
+				"height": 0.0
+			},
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+					{
+						"height": 2.3, 
+						"pivot": [
+							0, 
+							0, 
+							0
+						], 
+						"width": 1.6
+					}
+				]
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"on_damage": {
+							"filters": {
+								"all_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								}
+							  ]
+							},
+							"event": "twf_calm:random",
+							"deals_damage": true
+						},
+						"deals_damage": true
+					}
+				]
+			},			
+            "minecraft:physics": {
+                "has_gravity": true,
+                "has_collision": true
+            },
+            "minecraft:pushable": {
+                "is_pushable": true
+            },
+            "minecraft:push_through": {
+                "value": 1
+            },
+			"minecraft:despawn": {
+				"despawn_from_distance": {
+					"max_distance": 64,
+					"min_distance": 32
+				},
+				"despawn_from_chance": true,
+				"despawn_from_inactivity": true,	
+				"despawn_from_simulation_edge": true,
+				"min_range_inactivity_timer": 30 ,
+				"min_range_random_chance": 800			
+			}
+        },
+        "component_groups": {
+            "twf_calm:color_0": {
+                "minecraft:variant": {
+                    "value": 0
+                }
+            },
+            "twf_calm:color_1": {
+                "minecraft:variant": {
+                    "value": 1
+                }
+            },
+            "twf_calm:color_2": {
+                "minecraft:variant": {
+                    "value": 2
+                }
+            },
+            "twf_calm:color_3": {
+                "minecraft:variant": {
+                    "value": 3
+                }
+            },
+            "twf_calm:color_4": {
+                "minecraft:variant": {
+                    "value": 4
+                }
+            },
+            "twf_calm:color_5": {
+                "minecraft:variant": {
+                    "value": 5
+                }
+            },
+            "twf_calm:color_6": {
+                "minecraft:variant": {
+                    "value": 6
+                }
+            },
+            "twf_calm:color_7": {
+                "minecraft:variant": {
+                    "value": 7
+                }
+            }
+        },
+        "events": {
+            "minecraft:entity_spawned": {
+                "randomize": [
+                    {
+                        "add": {
+                            "component_groups": [
+                                "twf_calm:color_0"
+                            ]
+                        }
+                    },
+                    {
+                        "add": {
+                            "component_groups": [
+                                "twf_calm:color_1"
+                            ]
+                        }
+                    },
+                    {
+                        "add": {
+                            "component_groups": [
+                                "twf_calm:color_2"
+                            ]
+                        }
+                    },
+                    {
+                        "add": {
+                            "component_groups": [
+                                "twf_calm:color_3"
+                            ]
+                        }
+                    },
+                    {
+                        "add": {
+                            "component_groups": [
+                                "twf_calm:color_4"
+                            ]
+                        }
+                    },
+                    {
+                        "add": {
+                            "component_groups": [
+                                "twf_calm:color_5"
+                            ]
+                        }
+                    },
+                    {
+                        "add": {
+                            "component_groups": [
+                                "twf_calm:color_6"
+                            ]
+                        }
+                    },
+                    {
+                        "add": {
+                            "component_groups": [
+                                "twf_calm:color_7"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "twf_calm:random": {
+                "randomize": [
+                    {
+                        "add": {
+                            "component_groups": [
+                                "twf_calm:color_0"
+                            ]
+                        }
+                    },
+                    {
+                        "add": {
+                            "component_groups": [
+                                "twf_calm:color_1"
+                            ]
+                        }
+                    },
+                    {
+                        "add": {
+                            "component_groups": [
+                                "twf_calm:color_2"
+                            ]
+                        }
+                    },
+                    {
+                        "add": {
+                            "component_groups": [
+                                "twf_calm:color_3"
+                            ]
+                        }
+                    },
+                    {
+                        "add": {
+                            "component_groups": [
+                                "twf_calm:color_4"
+                            ]
+                        }
+                    },
+                    {
+                        "add": {
+                            "component_groups": [
+                                "twf_calm:color_5"
+                            ]
+                        }
+                    },
+                    {
+                        "add": {
+                            "component_groups": [
+                                "twf_calm:color_6"
+                            ]
+                        }
+                    },
+                    {
+                        "add": {
+                            "component_groups": [
+                                "twf_calm:color_7"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

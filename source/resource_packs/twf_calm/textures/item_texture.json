@@ -1,0 +1,397 @@
+{
+    "resource_pack_name": "twf_calm", 
+    "texture_data": {
+		"twf_calm_vehiclick": {
+			"textures": "textures/twf/calm/items/vehiclick.png"
+		},
+		"twf_calm_moth": {
+			"textures": "textures/twf/calm/items/moth.png"
+		},
+		"twf_calm_dragonfly": {
+			"textures": "textures/twf/calm/items/dragonfly.png"
+		},
+		"twf_calm_carapice_wings": {
+			"textures": "textures/twf/calm/items/carapice_wings.png"
+		},
+		"twf_calm_wings": {
+			"textures": "textures/twf/calm/items/wings.png"
+		},
+		"twf_calm_goggles": {
+			"textures": "textures/twf/calm/items/goggles.png"
+		},
+		"twf_calm_carapice": {
+			"textures": "textures/twf/calm/items/carapice.png"
+		},
+        "twf_calm_critter_icon": {
+            "textures": "textures/twf/calm/items/critter.png"
+        },		
+		
+        "twf_calm_flight_item": {
+            "textures": "textures/twf/calm/items/twf_calm_flight_item_tex"
+        },		
+        "twf_calm_controller_item": {
+            "textures": "textures/twf/calm/items/twf_calm_control_tex"
+        },
+        "twf_calm_destroyer_item": {
+            "textures": "textures/twf/calm/items/twf_calm_destroy_tex"
+        },
+        "twf_calm_builder_item": {
+            "textures": "textures/twf/calm/items/twf_calm_build_tex"
+        },
+        "twf_calm_randomize_item": {
+            "textures": "textures/twf/calm/items/twf_calm_random_tex"
+        },
+		"twf_calm_converter_item": {
+            "textures": "textures/twf/calm/items/twf_calm_converter_tex"
+        },
+        "twf_calm_light_spin_item": {
+            "textures": "textures/twf/calm/items/twf_calm_light_spin_tex"
+        },
+		"twf_calm_guide": {
+			"textures": "textures/twf/calm/items/twf_calm_guide"
+		},
+		"twf_calm_poster_item": {
+            "textures": "textures/twf/calm/items/twf_calm_poster_tex"
+        },
+		"twf_calm_mechanoid_item": {
+            "textures": "textures/twf/calm/items/twf_calm_mechanoid_tex"
+        },		
+		"twf_calm_sword_of_life_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_life_item_tex"
+		},
+		"twf_calm_sword_of_allay_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_allay_item_tex"
+		},
+		"twf_calm_sword_of_armor_stand_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_armor_stand_item_tex.png"
+		},
+		"twf_calm_sword_of_arrow_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_arrow_item_tex.png"
+		},
+		"twf_calm_sword_of_axolotl_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_axolotl_item_tex.png"
+		},
+		"twf_calm_axe_of_axolotl_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_axe_of_axolotl_item_tex.png"
+		},
+		"twf_calm_sword_of_bat_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_bat_item_tex.png"
+		},
+		"twf_calm_sword_of_bee_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_bee_item_tex.png"
+		},
+		"twf_calm_sword_of_blaze_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_blaze_item_tex.png"
+		},
+		"twf_calm_sword_of_boat_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_boat_item_tex.png"
+		},
+		"twf_calm_sword_of_camel_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_camel_item_tex.png"
+		},
+		"twf_calm_sword_of_cat_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_cat_item_tex.png"
+		},
+		"twf_calm_sword_of_cave_spider_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_cave_spider_item_tex.png"
+		},
+		"twf_calm_sword_of_chest_boat_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_chest_boat_item_tex.png"
+		},
+		"twf_calm_sword_of_chest_minecart_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_chest_minecart_item_tex.png"
+		},
+		"twf_calm_sword_of_chicken_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_chicken_item_tex.png"
+		},
+		"twf_calm_sword_of_cow_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_cow_item_tex.png"
+		},
+		"twf_calm_sword_of_creeper_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_creeper_item_tex.png"
+		},
+		"twf_calm_sword_of_dolphin_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_dolphin_item_tex.png"
+		},
+		"twf_calm_sword_of_donkey_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_donkey_item_tex.png"
+		},
+		"twf_calm_sword_of_dragon_fireball_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_dragon_fireball_item_tex.png"
+		},
+		"twf_calm_sword_of_drowned_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_drowned_item_tex.png"
+		},
+		"twf_calm_sword_of_egg_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_egg_item_tex.png"
+		},
+		"twf_calm_sword_of_elder_guardian_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_elder_guardian_item_tex.png"
+		},
+		"twf_calm_sword_of_enderman_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_enderman_item_tex.png"
+		},
+		"twf_calm_sword_of_endermite_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_endermite_item_tex.png"
+		},
+		"twf_calm_sword_of_ender_crystal_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_ender_crystal_item_tex.png"
+		},
+		"twf_calm_sword_of_ender_dragon_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_ender_dragon_item_tex.png"
+		},
+		"twf_calm_sword_of_ender_pearl_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_ender_pearl_item_tex.png"
+		},
+		"twf_calm_sword_of_evocation_illager_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_evocation_illager_item_tex.png"
+		},
+		"twf_calm_sword_of_eye_of_ender_signal_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_eye_of_ender_signal_item_tex.png"
+		},
+		"twf_calm_sword_of_fireball_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_fireball_item_tex.png"
+		},
+		"twf_calm_sword_of_fireworks_rocket_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_fireworks_rocket_item_tex.png"
+		},
+		"twf_calm_sword_of_cod_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_cod_item_tex.png"
+		},
+		"twf_calm_sword_of_fishing_hook_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_fishing_hook_item_tex.png"
+		},
+		"twf_calm_sword_of_fox_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_fox_item_tex.png"
+		},
+		"twf_calm_sword_of_frog_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_frog_item_tex.png"
+		},
+		"twf_calm_sword_of_ghast_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_ghast_item_tex.png"
+		},
+		"twf_calm_sword_of_glow_squid_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_glow_squid_item_tex.png"
+		},
+		"twf_calm_sword_of_goat_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_goat_item_tex.png"
+		},
+		"twf_calm_sword_of_guardian_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_guardian_item_tex.png"
+		},
+		"twf_calm_sword_of_hoglin_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_hoglin_item_tex.png"
+		},
+		"twf_calm_sword_of_hopper_minecart_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_hopper_minecart_item_tex.png"
+		},
+		"twf_calm_sword_of_horse_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_horse_item_tex.png"
+		},
+		"twf_calm_sword_of_husk_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_husk_item_tex.png"
+		},
+		"twf_calm_sword_of_iron_golem_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_iron_golem_item_tex.png"
+		},
+		"twf_calm_sword_of_lightning_bolt_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_lightning_bolt_item_tex.png"
+		},
+		"twf_calm_sword_of_lingering_potion_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_lingering_potion_item_tex.png"
+		},
+		"twf_calm_sword_of_llama_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_llama_item_tex.png"
+		},
+		"twf_calm_sword_of_llama_spit_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_llama_spit_item_tex.png"
+		},
+		"twf_calm_sword_of_magma_cube_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_magma_cube_item_tex.png"
+		},
+		"twf_calm_sword_of_minecart_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_minecart_item_tex.png"
+		},
+		"twf_calm_sword_of_mooshroom_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_mooshroom_item_tex.png"
+		},
+		"twf_calm_sword_of_mule_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_mule_item_tex.png"
+		},
+		"twf_calm_sword_of_ocelot_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_ocelot_item_tex.png"
+		},
+		"twf_calm_sword_of_panda_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_panda_item_tex.png"
+		},
+		"twf_calm_sword_of_parrot_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_parrot_item_tex.png"
+		},
+		"twf_calm_sword_of_phantom_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_phantom_item_tex.png"
+		},
+		"twf_calm_sword_of_pig_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_pig_item_tex.png"
+		},
+		"twf_calm_sword_of_piglin_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_piglin_item_tex.png"
+		},
+		"twf_calm_sword_of_piglin_brute_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_piglin_brute_item_tex.png"
+		},
+		"twf_calm_sword_of_pillager_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_pillager_item_tex.png"
+		},
+		"twf_calm_sword_of_player_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_player_item_tex.png"
+		},
+		"twf_calm_sword_of_polar_bear_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_polar_bear_item_tex.png"
+		},
+		"twf_calm_sword_of_pufferfish_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_pufferfish_item_tex.png"
+		},
+		"twf_calm_sword_of_rabbit_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_rabbit_item_tex.png"
+		},
+		"twf_calm_sword_of_ravager_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_ravager_item_tex.png"
+		},
+		"twf_calm_sword_of_salmon_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_salmon_item_tex.png"
+		},
+		"twf_calm_sword_of_sheep_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_sheep_item_tex.png"
+		},
+		"twf_calm_sword_of_shulker_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_shulker_item_tex.png"
+		},
+		"twf_calm_sword_of_shulker_bullet_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_shulker_bullet_item_tex.png"
+		},
+		"twf_calm_sword_of_silverfish_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_silverfish_item_tex.png"
+		},
+		"twf_calm_sword_of_skeleton_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_skeleton_item_tex.png"
+		},
+		"twf_calm_sword_of_skeleton_horse_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_skeleton_horse_item_tex.png"
+		},
+		"twf_calm_sword_of_slime_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_slime_item_tex.png"
+		},
+		"twf_calm_sword_of_small_fireball_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_small_fireball_item_tex.png"
+		},
+		"twf_calm_sword_of_sniffer_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_sniffer_item_tex.png"
+		},
+		"twf_calm_sword_of_snowball_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_snowball_item_tex.png"
+		},
+		"twf_calm_sword_of_snow_golem_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_snow_golem_item_tex.png"
+		},
+		"twf_calm_sword_of_spider_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_spider_item_tex.png"
+		},
+		"twf_calm_sword_of_splash_potion_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_splash_potion_item_tex.png"
+		},
+		"twf_calm_sword_of_squid_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_squid_item_tex.png"
+		},
+		"twf_calm_sword_of_stray_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_stray_item_tex.png"
+		},
+		"twf_calm_sword_of_strider_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_strider_item_tex.png"
+		},
+		"twf_calm_sword_of_tadpole_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_tadpole_item_tex.png"
+		},
+		"twf_calm_sword_of_thrown_trident_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_thrown_trident_item_tex.png"
+		},
+		"twf_calm_sword_of_tnt_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_tnt_item_tex.png"
+		},
+		"twf_calm_sword_of_tnt_minecart_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_tnt_minecart_item_tex.png"
+		},
+		"twf_calm_sword_of_trader_llama_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_trader_llama_item_tex.png"
+		},
+		"twf_calm_sword_of_tripod_camera_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_tripod_camera_item_tex.png"
+		},
+		"twf_calm_sword_of_tropicalfish_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_tropicalfish_item_tex.png"
+		},
+		"twf_calm_sword_of_turtle_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_turtle_item_tex.png"
+		},
+		"twf_calm_sword_of_vex_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_vex_item_tex.png"
+		},
+		"twf_calm_sword_of_villager_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_villager_item_tex.png"
+		},
+		"twf_calm_sword_of_villager_v2_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_villager_v2_item_tex.png"
+		},
+		"twf_calm_sword_of_vindicator_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_vindicator_item_tex.png"
+		},
+		"twf_calm_sword_of_wandering_trader_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_wandering_trader_item_tex.png"
+		},
+		"twf_calm_sword_of_warden_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_warden_item_tex.png"
+		},
+		"twf_calm_sword_of_witch_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_witch_item_tex.png"
+		},
+		"twf_calm_sword_of_wither_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_wither_item_tex.png"
+		},
+		"twf_calm_sword_of_wither_skeleton_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_wither_skeleton_item_tex.png"
+		},
+		"twf_calm_sword_of_wither_skull_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_wither_skull_item_tex.png"
+		},
+		"twf_calm_sword_of_wither_skull_dangerous_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_wither_skull_dangerous_item_tex.png"
+		},
+		"twf_calm_sword_of_wolf_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_wolf_item_tex.png"
+		},
+		"twf_calm_sword_of_xp_bottle_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_xp_bottle_item_tex.png"
+		},
+		"twf_calm_sword_of_xp_orb_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_xp_orb_item_tex.png"
+		},
+		"twf_calm_sword_of_zoglin_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_zoglin_item_tex.png"
+		},
+		"twf_calm_sword_of_zombie_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_zombie_item_tex.png"
+		},
+		"twf_calm_sword_of_zombie_horse_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_zombie_horse_item_tex.png"
+		},
+		"twf_calm_sword_of_zombie_pigman_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_zombie_pigman_item_tex.png"
+		},
+		"twf_calm_sword_of_zombie_villager_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_zombie_villager_item_tex.png"
+		},
+		"twf_calm_sword_of_zombie_villager_v2_item_tex": {
+			"textures": "textures/twf/calm/items/twf_calm_sword_of_zombie_villager_v2_item_tex.png"
+		}		
+    }, 
+    "texture_name": "atlas.items"
+}

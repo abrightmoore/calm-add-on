@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "twf_calm:glider",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/twf/calm/entity/glider"
+			},
+			"geometry": {
+				"default": "geometry.twf_calm_glider"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#8b43c4",
+				"overlay_color": "#96304c"
+			},
+			"animations": {
+				"base_pose": "animation.twf_calm_glider.run"
+			},
+			"scripts": {
+				"animate": [
+					"base_pose"
+                ]
+			}			
+		}
+	}
+}

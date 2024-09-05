@@ -1,0 +1,40 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"twf_calm:mechanoid": {
+				"volume": 1,
+				"pitch": [0.9, 1.0],
+				"events": {
+					"ambient": {
+						"sound": "twf.calm.entity.mechanoid.modem",
+						"volume": 0.2,
+						"pitch": 0.9
+					}
+				}
+			},
+			"twf_calm:critter": {
+				"volume": 1,
+				"pitch": [0.9, 1.0],
+				"events": {
+					"ambient": {
+						"sound": "twf.calm.entity.critter.warble",
+						"volume": 0.2,
+						"pitch": 0.9
+					}
+				}
+			},
+			"twf_calm:vehiclick": {
+				"volume": 1,
+				"pitch": [0.9, 1.0],
+				"events": {
+					"ambient": {
+						"sound": "twf.calm.entity.vehiclick.meep",
+						"volume": 0.2,
+						"pitch": 0.9
+					}
+				}
+			}
+			
+		}
+	}
+}

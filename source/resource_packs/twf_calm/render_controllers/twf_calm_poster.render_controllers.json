@@ -1,0 +1,30 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.single_poster_texture": {
+            "arrays": {
+                "textures": {
+                    "Array.pattern": [
+                        "Texture.default",
+                        "Texture.variant_1",
+                        "Texture.variant_2",
+                        "Texture.variant_3",
+                        "Texture.variant_4",
+                        "Texture.variant_5",
+						"Texture.variant_6",
+						"Texture.variant_7"
+                    ]
+                }
+            },
+            "geometry": "geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "Array.pattern[ query.variant ]"
+            ]
+        }
+    }
+}

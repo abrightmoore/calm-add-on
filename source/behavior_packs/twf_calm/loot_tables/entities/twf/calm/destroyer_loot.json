@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "twf_calm:life_destroyer_spawn_egg",
+          "weight": 1,
+          "functions": [
+				{
+					"count": 1,
+					"function": "set_count"
+				}
+			]
+        }
+      ]
+    }
+  ]
+}

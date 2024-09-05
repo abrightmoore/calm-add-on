@@ -1,0 +1,32 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"twf.calm.entity.mechanoid.modem": {
+			"category": "neutral",
+			"sounds": [ "sounds/twf/calm/entity/mechanoid/modem_chatter",
+						"sounds/twf/calm/entity/mechanoid/modem_connect1",
+						"sounds/twf/calm/entity/mechanoid/modem_connect2",
+						"sounds/twf/calm/entity/mechanoid/modem_dial",
+						"sounds/twf/calm/entity/mechanoid/modem_negotiate1",
+						"sounds/twf/calm/entity/mechanoid/modem_negotiate2"
+			]
+		},
+		"twf.calm.entity.critter.warble": {
+			"category": "neutral",
+			"sounds": [ "sounds/twf/calm/entity/critter/warble"
+			]
+		},
+		"twf.calm.entity.vehiclick.meep": {
+			"category": "neutral",
+			"sounds": [ "sounds/twf/calm/entity/vehiclick/meep1",
+						"sounds/twf/calm/entity/vehiclick/meep2",
+						"sounds/twf/calm/entity/vehiclick/meep3",
+						"sounds/twf/calm/entity/vehiclick/meep4"
+			]
+		},		
+		"twf.calm.book": {
+			"category": "ui",
+			"sounds": ["sounds/twf/calm/book"]
+		}		
+	}
+}

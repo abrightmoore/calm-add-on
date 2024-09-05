@@ -1,0 +1,448 @@
+pack.name=C.A.L.M. by The World Foundry
+pack.description=Cellular Automata - Life in Minecraft, Resource Pack
+
+entity.twf_calm:life_controller.name=Life Controller
+entity.twf_calm:life_builder.name=Life Builder
+item.spawn_egg.entity.twf_calm:life_controller.name=Place Life Controller
+item.spawn_egg.entity.twf_calm:life_builder.name=Place Life Builder
+entity.twf_calm:life_destroyer.name=Life Destroyer
+item.spawn_egg.entity.twf_calm:life_destroyer.name=Place Life Destroyer
+entity.twf_calm:life_randomiser.name=Life Randomiser
+item.spawn_egg.entity.twf_calm:life_randomiser.name=Place Life Randomiser
+item.spawn_egg.entity.twf_calm:poster.name=Place Pattern Guide
+entity.twf_calm:glider.name=Glider
+tile.twf_calm:cell.name=Life Cell
+
+item.twf_calm:vehiclick=Vehicle
+
+entity.twf_calm:mechanoid.name=Mechanoid
+item.spawn_egg.entity.twf_calm:mechanoid.name=Spawn Mechanoid
+item.spawn_egg.entity.twf_calm:life_converter.name=Cell Converter
+
+item.spawn_egg.entity.twf_calm:critter.name=Spawn Bug
+item.spawn_egg.entity.twf_calm:moth.name=Spawn Moth
+item.spawn_egg.entity.twf_calm:dragonfly.name=Spawn Dragonfly
+item.spawn_egg.entity.twf_calm:vehiclick.name=Spawn Vehicle
+
+item.twf_calm:sword_of_life=Sword of Life
+
+item.twf_calm:carapice=Carapace
+item.twf_calm:goggles=Goggles
+item.twf_calm:wings=Wings
+item.twf_calm:carapice_wings=Carapace and Wings
+
+action.hint.exit.twf_calm:dragonfly=Sneak or Jump to Exit
+action.hint.exit.twf_calm:moth=Sneak or Jump to Dismount
+action.hint.exit.twf_calm:vehiclick=Sneak to Exit
+action.hint.exit.twf_calm:critter=Sneak or Jump to Dismount
+action.hint.exit.twf_calm:mechanoid=Sneak or Jump to Dismount
+
+item.twf_calm:guide=§l§eThe Little Book of C.A.L.M.§r
+twf_calm:guide.name=§l§4The Little Book of C.A.L.M.§r
+
+twf_calm:guide_form_settings_debug=Onscreen Developer Debug Messages
+twf_calm:guide_form_settings_sound=C.A.L.M. Player Sounds
+twf_calm:guide_form_settings_global_sound=C.A.L.M. Global Sounds
+twf_calm:guide_form_settings_global_particle=C.A.L.M. Particles
+twf_calm:guide_form_settings_flight=Flight Stick enables Float and Fly 
+twf_calm:guide_form_settings_cage=Enable Soul Ball behavior, where mobs are captured in Snowballs instead of hurt when hit with Life Swords while wearing Goggles
+twf_calm:guide_form_settings_equip=Auto give C.A.L.M. tools if any are missing in your inventory 
+twf_calm:guide_form_settings_bonus=How many Cells must be placed before a bonus Life Sword is created. (Default is 3000)
+twf_calm:guide_form_settings_block_backlog=Cell placement buffer (reduce if system resources are low). (Default is 200)
+twf_calm:guide_form_settings_block=Choose a block type for the Converter to use. (Default is coral_block)
+twf_calm:guide_form_settings_time_budget_limit=Maximum time (in milliseconds) for C.A.L.M. to run each game tick. Default is 4
+twf_calm:guide_form_settings_simulation_radius=The number of blocks simulated each generation. (Default is radius 8, 289 cells)
+twf_calm:guide_form_settings_initialise_field=§l§4Turn this ON§r to apply changes to the number of blocks simulated (above)
+twf_calm:guide_form_settings_time_run_every=Number of ticks between generations. Use higher numbers for slower hardware. (Default is 7)
+twf_calm:guide_form_settings_time_backoff=If C.A.L.M. runs long, this settings puts it to sleep for some time. Use higher numbers for slower hardware. (Default is 3)
+
+twf_calm:guide_form_settings_life_lonely=Below how many neighbor cells will a cell die lonely? (Default is 2)
+twf_calm:guide_form_settings_life_crowded=Above how many neighbor cells will a cell die crowded? (Default is 3)
+twf_calm:guide_form_settings_life_born=How many cell neighbors for a new cell to be born? (Default is 3)
+
+
+twf_calm:guide_button_contents=Contents
+twf_calm:guide_button_index=Index of Pages
+twf_calm:guide_button_help=Help
+twf_calm:guide_button_tools=§lTools§r
+twf_calm:guide_button_equipment=§lEquipment§r
+twf_calm:guide_button_goggles=§l§1Goggles§r
+twf_calm:guide_button_axeofaxolotls=§l§1Axe of Axolotls§r
+twf_calm:guide_button_thelittlebook=§l§1Little Book of C.A.L.M.§r
+twf_calm:guide_button_travel=§lMovement§r
+twf_calm:guide_button_moths=§l§2Moth§r
+twf_calm:guide_button_dragonfly=§l§2Dragonfly§r
+twf_calm:guide_button_wings=§l§1Wings§r
+twf_calm:guide_button_carapaceandwings=§l§1Carapace and Wings§r
+twf_calm:guide_button_carapace=§l§1Carapace§r
+twf_calm:guide_button_building=§lBuilding§r
+twf_calm:guide_button_items=§lItems§r
+twf_calm:guide_button_mobs=§lCreatures§r
+twf_calm:guide_button_vehiclick=§l§2Vehicle§r
+twf_calm:guide_button_riding=§lRiding§r
+twf_calm:guide_button_floatfly=§lFloat and Fly§r
+twf_calm:guide_button_gameplay=§lGameplay§r
+twf_calm:guide_button_about=About
+twf_calm:guide_button_craft=§lCrafting§r
+twf_calm:guide_button_howto=Using this Add-On
+twf_calm:guide_button_calm_tools=§l§2New Tools§r
+twf_calm:guide_button_life=§l§2New Life§r
+twf_calm:guide_button_critter=§l§2Bug§r
+twf_calm:guide_button_control=§l§2Life Controller§r
+twf_calm:guide_button_cell=§l§2Life Cell§r
+twf_calm:guide_button_build=§l§2Life Builder§r
+twf_calm:guide_button_convert=§l§2Cell Converter§r
+twf_calm:guide_button_destroy=§l§4Life Destroyer§r
+twf_calm:guide_button_flight=§l§0Flight Stick§r
+twf_calm:guide_button_random=§l§0Life Randomizer§r
+twf_calm:guide_button_poster=§l§0Pattern Guide§r
+twf_calm:guide_button_swords=§l§3Life Swords§r
+twf_calm:guide_button_gliders=§l§3Gliders§r
+twf_calm:guide_button_lifecage=§l§3Soul Ball§r
+twf_calm:guide_button_mechanoid=§l§3Mechanoids§r
+twf_calm:guide_button_settings=§nChange Settings§r
+twf_calm:guide_button_settings_inst=§nChange Settings§r
+twf_calm:guide_button_performance=§nPerformance Tuning§r
+twf_calm:guide_button_performance_inst=§nPerformance Tuning§r
+twf_calm:guide_button_life_rules=§nChange the Life Rules§r
+twf_calm:guide_button_life_rules_inst=§nChange the Life Rules§r
+twf_calm:guide_button_credits=Credits
+twf_calm:guide_button_compat=Add-On Stacking
+twf_calm:guide_button_twf=About The World Foundry
+twf_calm:guide_button_changes=Change Log
+twf_calm:guide_button_prj1=§oMapcademy§r (World)
+twf_calm:guide_button_prj2=§oG-Force Factory§r (World)
+twf_calm:guide_button_prj3=§oFun with Fractals§r (World)
+twf_calm:guide_button_prj4=§oSpace Station Z§r (World)
+twf_calm:guide_button_prj5=§oFly Spy§r (World)
+twf_calm:guide_button_prj6=§oArena PvP Citadel§r (World)
+twf_calm:guide_button_prj7=§oStar Block§r (World)
+twf_calm:guide_button_prj8=§o1000 Blocks§r (World)
+twf_calm:guide_button_prj9=§oSpells§r (World)
+twf_calm:guide_button_prj10=§oDomino§r (World)
+twf_calm:guide_button_prj11=§oLucky Dice Land§r (World)
+twf_calm:guide_button_prj12=§oMicro City§r (World)
+twf_calm:guide_button_prj13=§oLockyblock Land§r (World)
+twf_calm:guide_page_close=Go Back
+
+
+twf_calm:guide_form_help_title=§l§0Help, Hints, Tips§r
+twf_calm:guide_form_help_body=§lIf you are having trouble with Float and Fly§r, check it is enabled in Settings, and try it out on a clear flat stone or grass block area. Snow, water, plants, and lava will interfere with Float and Fly.%1%1§lIf the Game of Life simulation is not working§r change the Game Rules back to the defaults, work on a clear flat area of stone or grass blocks with no snow, water, plants, or other obstructions, and start by using the designs shown on the Pattern Guide.%1%1If you are having problems not covered here, email adrian@theworldfoundry.com with a description of your issue or provide feedback anonymously through Marketplace feedback on the Marketplace C.A.L.M. Add-On page. I read everything you send and take action.
+
+twf_calm:guide_form_building_title=§l§0Building with C.A.L.M.§r
+twf_calm:guide_form_building_body=C.A.L.M. can quickly generate tall towers, stairs, arching tunnels, and mighty fortresses. The way you do it is to place Life Cells next to each other in a flat horizontal plane, and then put the Life Builder on top of the central Life Cell.%1%1There are several example patterns shown in the Pattern Guide.%1%1After building, you can convert the block type using the Life Converter.%1%1Advanced Players can change the Performance Settings and the Game Rules to achieve different shapes and styles.%1%1Practice, explore, and find a style that works well for you.%1
+
+twf_calm:guide_form_calm_tools_title=§l§0C.A.L.M. Tools§r
+twf_calm:guide_form_calm_tools_body=Choose a tool.
+
+twf_calm:guide_form_index_title=§l§0Index§r
+twf_calm:guide_form_index_body=Choose a topic.
+
+twf_calm:guide_form_gameplay_title=§l§0Gameplay§r
+twf_calm:guide_form_gameplay_body=Choose a topic.
+
+twf_calm:guide_form_mobs_title=§l§0C.A.L.M. Mobs§r
+twf_calm:guide_form_mobs_body=Choose a mob.
+
+twf_calm:guide_form_goggles_title=§l§0Goggles§r
+twf_calm:guide_form_goggles_body=Goggles may be dropped by Bugs when they are killed. When you equip Goggles in your Head slot, you can use Life Swords to capture mobs instead of hurting them. The captured mob will be trapped inside a Soul Ball.%1%1The Axe of Axolotl does not work with this feature.%1%1This feature of worn Goggles may be disabled and enabled in Settings.
+
+twf_calm:guide_form_vehiclick_title=§l§0Vehicle§r
+twf_calm:guide_form_vehiclick_body=The vehicle is an excellent way to zoom around your builds and your world quickly.%1%1You can drive the vehicle on land using your normal movement controls. To exit the vehicle, sneak. To make the vehicle jump over obstacles, hold your jump control.%1%1The vehicle is crafted using a shaped recipe of four Life Cells, one in each corner of the 3x3 crafting grid, and 3 Sticks placed vertically in the middle column.
+
+twf_calm:guide_form_moths_title=§l§0Moths§r
+twf_calm:guide_form_moths_body=Moths spawn naturally. Moths are an excellent source of Life Cells and Wings. Moths will also carry you wherever they are going if you ride them. When riding Moths you can dismount by sneaking or jumping.
+
+twf_calm:guide_form_dragonfly_title=§l§0Dragonfly§r
+twf_calm:guide_form_dragonfly_body=The Dragonfly will spawn naturally. Dragonflies are an excellent source of Life Cells and Wings. Dragonflies will also carry you wherever they are going if you mount them. They carry you beneath their body. When riding a Dragonfly you can dismount by sneaking or jumping.
+
+twf_calm:guide_form_gliders_title=§l§0Gliders§r
+twf_calm:guide_form_gliders_body=Gliders are small cellular mobs that fly off in a direction following the rules of the Game of life.%1%1They may be created when you build with Life Cells and use the Life Tools.
+
+twf_calm:guide_form_items_title=§l§0Items§r
+twf_calm:guide_form_items_body=Learn about the Tools and Equipment available to you.
+
+twf_calm:guide_form_equipment_title=§l§0Equipment§r
+twf_calm:guide_form_equipment_body=Learn about the Equipment:
+
+
+twf_calm:guide_form_axeofaxolotls_title=§l§0Axe of Axolotls§r
+twf_calm:guide_form_axeofaxolotls_body=The Axe of Axolotls is imbued with the soul of an Axolotl.%1%1You may use it to summon an Axolotl, or fight with it in combat. It also functions as an axe for chopping. It may be crafted using a stick and a mysterious Life Cell pattern.
+
+twf_calm:guide_form_thelittlebook_title=§l§0Little Book of C.A.L.M.§r
+twf_calm:guide_form_thelittlebook_body=This book has lots of information about this Add-On.%1%1You can craft this guide using one §l§aLife Cell§r. The pattern is shown below:%1%1|§2#§r||§7_§r| --> THIS GUIDE%1|§7_§r||§7_§r|
+
+
+twf_calm:guide_form_carapaceandwings_title=§l§0Carapace and Wings§r
+twf_calm:guide_form_carapaceandwings_body=Carapace and Wings may be equipped to your Chest equipment slot to access the Float and Fly feature and an armor bonus.
+
+twf_calm:guide_form_carapace_title=§l§0Carapace§r
+twf_calm:guide_form_carapace_body=The Carapace is the outer shell (exoskeleton) of a Bug. A Carapace may be dropped by the Bug when killed. You can equip a Carapace in your Chest slot. When equipped you will have an armor bonus.%1%1The Carapace may be crafted using Wings into Carapace and Wings for the Float and Fly feature.
+
+twf_calm:guide_form_wings_title=§l§0Wings§r
+twf_calm:guide_form_wings_body=Wings may be dropped by the Moth and Dragonfly, when killed. You can equip Wings in your Chest slot. When equipped, and if Float and Fly is enabled in Settings, you can move through the air using your walk, jump, and sneak controls.%1%1Wings may be combined with the Carapace using a Crafting grid into "Carapace and Wings" for Float and Fly plus additional armor bonuses.
+
+twf_calm:guide_form_floatfly_title=§l§0Float and Fly§r
+twf_calm:guide_form_floatfly_body=When enabled (by default) in the Settings, if you have the right equipment you can jump off clean ground to float around your buildings, the landscape, and the sky.%1%1Note that snow, water, lava, and plants can interfere with Float and Fly. When floating you use walking, jumping and crouching controls to move around.%1%1Float and Fly can be disabled and enabled in Settings.
+
+twf_calm:guide_form_riding_title=§l§0Riding§r
+twf_calm:guide_form_riding_body=You can hitch a ride on all of the new creatures and the vehicle added by C.A.L.M. The vehicle is steered using normal navigation keys. The rest will take you wherever they happen to be going.
+
+twf_calm:guide_form_travel_title=§l§0Movement§r
+twf_calm:guide_form_travel_body=Because C.A.L.M. helps you build, it includes a few new ways of getting around your world. It also makes it easier for you to reach high places using a unique Float and Fly system powered by special equipment.
+
+twf_calm:guide_form_lifecage_title=§l§0Soul Ball§r
+twf_calm:guide_form_lifecage_body=When this feature is enabled, anything you hit or damage will be captured in a special Snowball called the §l§3Soul Ball§r. If you use the §l§3Soul Ball§r on a block then the creature you captured will be freed. In Survival mode, if you throw the Soul Ball then the creature will be lost forever.
+
+twf_calm:guide_form_tools_title=§l§0C.A.L.M. Tools§r
+twf_calm:guide_form_tools_body=Select a tool to find out how to use it.
+
+twf_calm:guide_form_life_title=§l§0C.A.L.M. Life§r
+twf_calm:guide_form_life_body=Select a type of life to find out more about it.
+
+twf_calm:guide_form_life_rules_title=§l§0The Rules of Life§r
+
+
+twf_calm:guide_form_critter_title=§l§0Bug§r
+twf_calm:guide_form_critter_body=The Bug naturally spawns in moderate darkness. It has six legs to propel it around. It's body is segmented and it has excellent eye sight.%1%1A Bug may be ridden though you will go wherever it wants to go.%1%1It is a good source of Life Cells, the Carapace, and Goggles.
+
+
+twf_calm:guide_form_life_rules_inst_title=§l§eChange Life Rules?§r
+twf_calm:guide_form_life_rules_inst_body=§l§eNotes§r: You can change the LONELY, CROWDED, and BORN rules of the Game of Life.%1(1) A cell will die if it is LONELY%1(2) A cell will die if it is too CROWDED%1(3) A cell is BORN when it has a specific number of neighbors.%1Would you like to continue to the Change Rule page, or return to the Contents?
+
+
+twf_calm:guide_form_settings_inst_title=§l§eChange Settings?§r
+twf_calm:guide_form_settings_inst_body=§l§eNotes§r: You can change Player preferences and audio/visual effects in the Settings page. Some settings will affect everyone in this world.%1%1Would you like to continue to the Settings page, or return to the Contents?
+
+twf_calm:guide_form_performance_inst_title=§l§eTune Performance?§r
+twf_calm:guide_form_performance_inst_body=§l§eAdvanced§r: You can change certain parameters that affect how the simulation runs.The simulation settings will affect everyone in this world.%1%1Would you like to continue to the Performance Settings page, or return to the Contents?
+
+twf_calm:guide_form_changes_title=§l§eChange Log§r
+twf_calm:guide_form_changes_body=§l§eMay 28 2024§r: Published.%1%1§l§eExpansion 1§r: Performance settings added. The Little Book of Calm navigation improved. Scripts refactored.%1%1§l§eQuality of Life expansion§r: added Moth, Dragonfly, Bug, Carapace, Wings, Vehicle, Goggles, Soul Ball with capture via Life Swords, persistent world settings, more Converter blocks, more documentation, configurable Life Rules, Mechanoid sounds.
+
+twf_calm:guide_form_prj13_title=§l§eLockyblock Land (World)§r
+twf_calm:guide_form_prj13_body=In this world the blocks lock together! Welcome to Lockyblock Land. Lachlan Blockland has been creating a new kind of block. Kill Bopper mobs to harvest Lockyblocks. Hold a Rainbow Lockyblock in your hand to convert the land to Lockyblocks!%1%1- New custom blocks and a mob%1- Survival or Creative%1- Three challenging goals to complete%1- Cheat book%1- Single or multi-player
+
+twf_calm:guide_form_prj12_title=§l§eMicro City (World)§r
+twf_calm:guide_form_prj12_body=Create cities everywhere in this world! Craft and place construction Cranes and watch the fun as they make your high-rise skylines. Defend the place from mob attacks, and you may just welcome in tiny Citizens who will make your new City their permanent home! Equipment includes helicopters, bulldozers, and more!%1%1- Place and destroy tools%1- Remove excess%1- Craft cities!
+
+twf_calm:guide_form_prj11_title=§l§eLucky Dice Land (World)§r
+twf_calm:guide_form_prj11_body=Roll for adventure in Lucky Dice Land! Explore the dice cities, find and roll the dice for special rewards! Try not to roll a 2, that would be very very bad. Compete with your friends in classic dice games, or uncover the secrets of the Dice mob.%1%1- Over 900 rewards%1- 2 free skins%1- You can fly!%1%1Play this game in Survival or Creative mode with one or more players.
+
+twf_calm:guide_form_prj10_title=§l§eDomino (World)§r
+twf_calm:guide_form_prj10_body=This is a single and multiplayer domino simulation. You knock down flags to increase your score. Some dominos spin, and some jump, making the challenge more difficult and timing important. Each track has a x10 maximum score over the last one. Each reset of the track erodes your score. You trade score for player-placed dominos so you can create your own domino tracks.
+
+twf_calm:guide_form_prj9_title=§l§eSpells (World)§r
+twf_calm:guide_form_prj9_body=Craft items using letters! Spells is a new way to play Minecraft. It uses a fun way to craft items using words. This is both a puzzle adventure and a survival world. Restart time using your wits as you explore the halls in the adventure. For survival, craft items from letters that naturally spawn through the world. TNT? No problem. Need cake? Spell it... and it is yours!
+
+twf_calm:guide_form_prj8_title=§l§e1000 Blocks (World)§r
+twf_calm:guide_form_prj8_body=Collect all 1000 blocks by hunting for geode deposits, or harvesting pieces from friendly Cyootoons, enemy Cyajztics, and natural spawning outcrops. Each block is unique! One thousand new blocks, and a set of exciting new skins. Complete the monument, or build with these amazing new textures. Lucky you!%1%1Play multiplayer, single player, survival, or in creative mode.
+
+twf_calm:guide_form_prj7_title=§l§eStar Block (World)§r
+twf_calm:guide_form_prj7_body=Own your own galaxy! Star Block is a huge open-world space survival spawn with complete-the-monument challenges. As a member of the Big Space Explorer team, discover the location of hidden beacons throughout 40+ systems. Work alone or with friends to uncover secret co-ordinates, travel to alien worlds, and establish far-flung bases to operate from. See you in space!
+
+twf_calm:guide_form_prj6_title=§l§eArena PvP Citadel (World)§r
+twf_calm:guide_form_prj6_body=Own the giant citadel. This massive survival spawn is also a PvP arena! Explore all the combat zones and paths. Play single player and multiplayer to see who has the edge in battle.%1%1Features include:%1- Hundreds of non-player citizens%1- High detail houses%1- World balanced for early game%1- Parkour challenge%1- Beautiful build%1- Use as your Realm spawn%1- Great value%1Enjoy!
+
+twf_calm:guide_form_prj5_title=§l§eFly Spy (World)§r
+twf_calm:guide_form_prj5_body=Massive alien city to explore. Bundled flight suit skin. 20 objectives. Open world elytra fun!%1%1You are a spy for humanity in the far future. We have built machines to take us to the distant stars but these mechanical tools are now at war with us! You have been sent onto their base to discover what they are working on before humans become just a memory!
+
+twf_calm:guide_form_prj4_title=§l§eSpace Station Z (World)§r
+twf_calm:guide_form_prj4_body=Futuristic escape adventure!%1%1- Join Big Space Corporation%1- Uncover the secret of the outbreak%1- Explore the space station before it self-destructs%1- Find clues to help you escape%1- Beat the countdown clock%1- Fly through space%1- Explore a huge asteroid field%1- Find the hidden ship to get rescued%1- Play again and beat your best time%1- Single-player%1%1By The World Foundry
+
+twf_calm:guide_form_prj3_title=§l§eFun with Fractals (World)§r
+twf_calm:guide_form_prj3_body=Explore and build 3D fractals in this creative mode world! Generate fractals from shapes you build. Four fractal machines to work with. Explore a mathematically created landscape. Hunt and discover new glass shapes to build. Create and place multi-coloured maps in the fractal castle. Share your discoveries!%1%1Like this world? Check out "Steel Skins" as well.
+
+twf_calm:guide_form_prj2_title=§l§eG-Force Factory (World)§r
+twf_calm:guide_form_prj2_body=Make your own giant roller coaster easily! Build a tiny model of your minecart track, then press a button and watch it transform into an epic coaster to ride!%1%1- Play in singleplayer or race friends in multiplayer!%1- Bonus features: Build your own castle or parkour course%1- Eight customizable styles%1- Unique creative-mode experience%1- By The World Foundry & Pathway Studios
+
+twf_calm:guide_form_prj1_title=§l§eMapcademy (World)§r
+twf_calm:guide_form_prj1_body=Welcome to Minecraft's first school for map-making! Complete your diploma by exploring and learning about how maps like this one are made!%1%1- Explore a survival world full of areas and challenges inspired by map-making!%1- Design your own dungeons%1- Make an awesome dropper map!%1- Live in the university castle or nearby town%1- By The World Foundry & Pathway Studios
+
+twf_calm:guide_form_settings_title=§l§eSettings§r
+twf_calm:guide_form_performance_title=§l§ePerformance Tuning§r
+
+twf_calm:guide_form_contents_title=§l§eThe Little Book of C.A.L.M.§r
+twf_calm:guide_form_contents_body=§l§eCellular Automata%1 - Life in Minecraft§r%1 §7by The World Foundry and friends.%1%1C.A.L.M. is the Game of Life simulator that builds blocks in your world. This isn't armor (but there is armor) or pets (but there are creatures) or cars (but you can drive a car). C.A.L.M. is special. It is not like anything else you have seen in Minecraft. Try it out!%1%1§lHit a button to find out more:§r
+
+twf_calm:guide_form_compat_title=§l§eCompatibility§r
+twf_calm:guide_form_compat_body=COMPUTERS by Jigarbov Productions%1%1C.A.L.M. sends statistics to Jigarbov's Computers Add-On so you can track your progress with creating cellular life centrally.%1%1%1OTHER ADD-ONs%1%1C.A.L.M. should not interfere with other Add-Ons functionally.%1%1The float and fly mode, enabled through the Flight Stick, can be used to improve your navigation when building with blocks from other Add-Ons.%1%1The Life Swords are a quick and easy way to place and test mobs and animals in your own creations.%1%1You may find that you need to change the Performance settings for a smoother experience if things are running slow on your hardware.
+
+twf_calm:guide_form_twf_title=§l§eThe World Foundry§r
+twf_calm:guide_form_twf_body=I started The World Foundry in 2017 to help other Minecraft Marketplace creators with their projects. Since then, The World Foundry has worked with the biggest Minecraft studios and released 13 of my own unique and fun worlds.
+
+
+twf_calm:guide_form_about_title=§l§eAbout C.A.L.M.§r
+twf_calm:guide_form_about_body=With this Add-On you are the controller of Life. A new type of block has been discovered! You can use these blocks to explore the science of artificial life.%1%1You can also build amazing structures using special tools from this project. Whenever you read and then close this book, you will be given these special items (unless you already have them).%1%1To reward your efforts, you will also be gifted special Swords of Life for exploring the simulation. These swords, when used, will summon creatures and items. In survival combat they deal huge damage.%1%1There is also a new, more civilized, way to play Minecraft using the optional Soul Ball.%1%1When enabled (through wearing Goggles and enabling an option in the Settings page) instead of hurting mobs you will capture them in special Snowballs, called the Soul Ball. You can then release them where you like by using the Soul Ball on a block in the world. Be careful though - accidentally throwing the Soul Ball when in Survival mode will cause you to lose the mob... forever!
+
+twf_calm:guide_form_craft_title=§l§eCrafting with C.A.L.M.§r
+twf_calm:guide_form_craft_body=You can craft this guide using one §l§aLife Cell§r. The pattern is shown below:%1%1|§2#§r||§7_§r| --> THIS GUIDE%1|§7_§r||§7_§r|%1%1§lCRAFTING LIFE CELLS§r%1%1§l§aLife Cells§r are crafted by combining Honeycomb and Frogspawn on a crafting grid.%1%1§lCRAFTING SPECIAL ITEMS§r%1%1Each special item can also be crafted using the §l§aLife Cell§r. Make a pattern of eight §l§aLife Cell§r around the edge of the crafting table. In the middle, place a block of TNT for the §l§eLife Destroyer§r, or a block of Scaffold for the §l§6Life Builder§r, a Spider Eye for the §l§2Life Controller§r, or Blaze Powder for the §l§cLife Randomizer§r.%1%1§lHINTS AND TIPS§r%1To get you started, try making this shape with §l§aLife Cells§r on a flat part of ground, then place the §l§2Life Controller§r on top of the middle block.%1This shape is known as a GLIDER.%1%1[§7_§r][§2#§r][§2#§r]%1[§2#§r][§2#§r][§7_§r]%1[§7_§r][§7_§r][§2#§r]%1%1And this shape is known as a REPEATER.%1%1[§7_§r][§7_§r][§7_§r]%1[§2#§r][§2#§r][§2#§r]%1[§7_§r][§7_§r][§7_§r]%1%1You can find more ideas in §l§4The Pattern Guide§r.%1%1§l§4The Pattern Guide§r can be placed on the ground, and will cycle through patterns whenever you hit it. With enough hits, it will be destroyed. §l§4The Pattern Guide§r will also despawn naturally when you move far away from it.%1
+
+twf_calm:guide_form_howto_title=§l§eHow to use C.A.L.M.§r
+twf_calm:guide_form_howto_body=C.A.L.M. can be played in either Survival or Creative mode. Choose your game mode in the world settings.%1%1§lOPTIONAL FLIGHT MODE§r%1%1When you have the §l§3Flight Stick§r in your inventory, you can float around the world by jumping off the ground into the air. You can then move up or down by looking up or down. To go forward, simply walk in the direction you are facing. Beware... flying in this way takes a lot of skill, and you may be killed if you hit the ground too hard. If you prefer to stick to climbing and jumping, just discard the §l§3Flight Stick§r whenever you receive it.%1%1§lMAKING NEW LIFE§r%1%1You may either place the §l§aLife Cell§r on a flat area of ground, or use the §l§cLife Randomizer§r to create a randomly selected pattern.%1%1Once your blocks are placed, you may use the §l§2Life Controller§r to start the simulator by placing the §l§2Life Controller§r onto the top of one of the §l§aLife Cells§r. After some steps, the simulation will halt. You may choose to start it once more by placing the item on the new top layer. As the simulation runs, simple rules create or remove §l§aLife Cell§r blocks. Careful placement of blocks results in long-lived patterns, or cycles. If you make a mistake you can clear the area by placing down the §l§eLife Destroyer§r.%1%1Note that the simulation will avoid overwriting parts of the world. This means blocks like grass and flowers may interfere with your work. Try clearing an area with water for best results.%1
+
+twf_calm:guide_form_control_title=§l§eThe Life Controller§r
+twf_calm:guide_form_control_body=§l§2The Life Controller§r runs the Game of Life simulation. Place it on top of a §l§aLife Cell§r and it will apply the rules of the Game of Life to the layer of §l§aLife Cells§r below it.%1%1The simulation runs in a square of configurable block radius (via the Settings page) from §l§2The Life Controller§r%1%1To craft, make a pattern of eight §l§aLife Cell§r around the edge of the crafting table. In the middle, place a Spider Eye for the §l§2Life Controller§r
+
+twf_calm:guide_form_credits_title=§l§eAcknowledgements§r
+twf_calm:guide_form_credits_body=This Game of Life simulation builds on the work of thousands of mathematicians, computer scientists, and hobbyists.%1%1This project was started way back in 2015. This public Add-On version was made possible by the generous contributions of time and talent by%1§l§2JigarbovProductions§r,%1§l§aGentleGiantJGC§r (Amulet Editor and endless patience), %1§l§aJannis§r (Blockbench, Snowstorm and community enablement), %1§l§eDichotomise§r, and many skilled Minecraft Community developers. A special shout out to ScaiQuest and Ciosciaa for bouncing ideas.%1%1The randomizer pattern library is built on the work of Stephen A. Silver from various sources and may be copied, modified and distributed under the terms of the Creative Commons Attribution-ShareAlike 3.0 Unported licence.%1%1Share your creations on social media by tagging "TheWorldFoundry".%1
+
+twf_calm:guide_form_cell_title=§l§eThe Life Cell§r
+twf_calm:guide_form_cell_body=As the simulation runs, simple rules create or remove §l§aLife Cell§r blocks. Careful placement of blocks results in long-lived patterns, or cycles. If you make a mistake you can clear the area by placing down the §l§eLife Destroyer§r.%1%1Note that the simulation will avoid overwriting parts of the world. This means blocks like grass and flowers may interfere with your work. Try clearing an area with water for best results.%1%1§l§aLife Cells§r are crafted by combining Honeycomb and Frogspawn on a crafting grid.
+
+twf_calm:guide_form_build_title=§l§eThe Life Builder§r
+twf_calm:guide_form_build_body=The §l§6Life Builder§r is used to create tall towers, tunnels, and other structures. When you place a §l§6Life Builder§r on top of a §l§aLife Cell§r the §l§6Life Builder§r will build upwards with layers at each step of the simulation. In this way you can build towers and forts using the rules of C.A.L.M.%1%1To craft, make a pattern of eight §l§aLife Cell§r around the edge of the crafting table. In the middle, place a block of Scaffold for the §l§6Life Builder§r
+
+twf_calm:guide_form_convert_title=§l§eThe Cell Converter§r
+twf_calm:guide_form_convert_body=When you are happy with your structure and would like to kill all the cells, use the §l§7Cell Converter§r on sections to destroy the §l§aLife Cell§r blocks. This leaves behind their dead skeletons for you to build around or furnish as a base. This activity is optional.%1
+
+twf_calm:guide_form_destroy_title=§l§The Life Destroyer§r
+twf_calm:guide_form_destroy_body=If you make a mistake you can clear the area by placing down the §l§eLife Destroyer§r.%1%1This can also be used to trim your creations or carve out layers in towers and tunnels.%1%1Then you can transform your structure using the §l§eThe Cell Converter§r.%1%1To craft, make a pattern of eight §l§aLife Cell§r around the edge of the crafting table. In the middle, place a block of TNT for the §l§eLife Destroyer§r
+
+twf_calm:guide_form_flight_title=§l§eThe Flight Stick§r
+twf_calm:guide_form_flight_body=When you have the §l§3Flight Stick§r in your inventory, you can float around the world by jumping off the ground into the air. You can then move up or down by looking up or down. To go forward, simply walk in the direction you are facing. Beware... flying in this way takes a lot of skill, and you may be killed if you hit the ground too hard. If you prefer to stick to climbing and jumping, just discard the §l§3Flight Stick§r whenever you receive it.%1%1Flight mode can also be disabled in the C.A.L.M. Add-On Settings.%1
+
+twf_calm:guide_form_random_title=§l§The Life Randomizer§r
+twf_calm:guide_form_random_body=Use the §l§cLife Randomizer§r to create a randomly selected pattern from the pattern library in C.A.L.M. The name of the pattern is displayed so you can explore more information about the pattern outside C.A.L.M. Occasionally, the §l§cLife Randomizer§r will create completely random patterns of blocks.%1%1To craft, make a pattern of eight §l§aLife Cell§r around the edge of the crafting table. In the middle, place Blaze Powder for the §l§cLife Randomizer§r
+
+twf_calm:guide_form_poster_title=§l§eThe Pattern Guide§r
+twf_calm:guide_form_poster_body=You can find more ideas in §l§4The Pattern Guide§r.%1%1§l§4The Pattern Guide§r can be placed on the ground, and will cycle through patterns whenever you hit it. With enough hits, it will be destroyed. §l§4The Pattern Guide§r will also despawn naturally when you move far away from it.%1%1To craft, place a Life Cell and an Empty Map on a crafting grid.
+
+twf_calm:guide_form_swords_title=§l§eLife Swords§r
+twf_calm:guide_form_swords_body=§l§3Life Swords§r deal massive damage.%1%1Each sword contains the essence of a Minecraft animal, mob, or other entity. The color of the sword hints at the type of entity within it. If interacted with outside of combat, a §l§3Life Sword§r will create a new instance of life in Minecraft.%1%1If you are wearing Goggles and have enabled the Soul Ball feature in Settings you can use Life Swords to capture mobs in Soul Balls by hitting them.%1%1Note that you will be gifted a special §l§3Life Sword§r as a trophy item for each 3000 new cells (configurable via Settings page) your simulation creates.%1%1You may choose to build a collection of all the §l§3Life Swords§r, or use them up creating new life in your Minecraft world.%1%1Swords may also be harvested from §l§3Mechanoids§r.%1%1Swords are crafted using a Stick in the lower left corner of a 3x3 crafting grid, and a pattern of Life Cells and empty positions on the rest of the crafting grid.
+
+twf_calm:guide_form_mechanoid_title=§l§eMechanoids§r
+twf_calm:guide_form_mechanoid_body=Occasionally you will see artificial life mobs, called §l§3Mechanoids§r, emerge from this garden of artificial life. Do not be alarmed - they have their own lives to live, so they shouldn't bother you too much.%1%1If, for some reason, you happen to destroy one of the §l§3Mechanoids§r they may drop a Life Sword for you to collect.%1%1To craft, place Life Controller in the top middle position of a 3x3 crafting grid, place 3 Life Cells across the horizontal middle row, and place a Life Cell in the lower left and lower right position.
+
+item.twf_calm:flight=Flight Stick
+
+twf_calm:guide_exit=Close Book
+
+item.twf_calm:sword_of_allay=Sword of Allay Life
+item.twf_calm:sword_of_area_effect_cloud=Sword of Area Effect Cloud Life
+item.twf_calm:sword_of_armor_stand=Sword of Armor Stand Life
+item.twf_calm:sword_of_arrow=Sword of Arrow Life
+item.twf_calm:sword_of_axolotl=Sword of Axolotl Life
+item.twf_calm:sword_of_bat=Sword of Bat Life
+item.twf_calm:sword_of_bee=Sword of Bee Life
+item.twf_calm:sword_of_blaze=Sword of Blaze Life
+item.twf_calm:sword_of_boat=Sword of Boat Life
+item.twf_calm:sword_of_camel=Sword of Camel Life
+item.twf_calm:sword_of_cat=Sword of Cat Life
+item.twf_calm:sword_of_cave_spider=Sword of Cave Spider Life
+item.twf_calm:sword_of_chest_boat=Sword of Chest Boat Life
+item.twf_calm:sword_of_chest_minecart=Sword of Chest Minecart Life
+item.twf_calm:sword_of_chicken=Sword of Chicken Life
+item.twf_calm:sword_of_cow=Sword of Cow Life
+item.twf_calm:sword_of_creeper=Sword of Creeper Life
+item.twf_calm:sword_of_dolphin=Sword of Dolphin Life
+item.twf_calm:sword_of_donkey=Sword of Donkey Life
+item.twf_calm:sword_of_dragon_fireball=Sword of Dragon Fireball Life
+item.twf_calm:sword_of_drowned=Sword of Drowned Life
+item.twf_calm:sword_of_egg=Sword of Egg Life
+item.twf_calm:sword_of_elder_guardian=Sword of Elder Guardian Life
+item.twf_calm:sword_of_enderman=Sword of Enderman Life
+item.twf_calm:sword_of_endermite=Sword of Endermite Life
+item.twf_calm:sword_of_ender_crystal=Sword of Ender Crystal Life
+item.twf_calm:sword_of_ender_dragon=Sword of Ender Dragon Life
+item.twf_calm:sword_of_ender_pearl=Sword of Ender Pearl Life
+item.twf_calm:sword_of_evocation_illager=Sword of Evocation Illager Life
+item.twf_calm:sword_of_eye_of_ender_signal=Sword of Eye Of Ender Signal Life
+item.twf_calm:sword_of_fireball=Sword of Fireball Life
+item.twf_calm:sword_of_fireworks_rocket=Sword of Fireworks Rocket Life
+item.twf_calm:sword_of_cod=Sword of Cod Life
+item.twf_calm:sword_of_fishing_hook=Sword of Fishing Hook Life
+item.twf_calm:sword_of_fox=Sword of Fox Life
+item.twf_calm:sword_of_frog=Sword of Frog Life
+item.twf_calm:sword_of_ghast=Sword of Ghast Life
+item.twf_calm:sword_of_glow_squid=Sword of Glow Squid Life
+item.twf_calm:sword_of_goat=Sword of Goat Life
+item.twf_calm:sword_of_guardian=Sword of Guardian Life
+item.twf_calm:sword_of_hoglin=Sword of Hoglin Life
+item.twf_calm:sword_of_hopper_minecart=Sword of Hopper Minecart Life
+item.twf_calm:sword_of_horse=Sword of Horse Life
+item.twf_calm:sword_of_husk=Sword of Husk Life
+item.twf_calm:sword_of_iron_golem=Sword of Iron Golem Life
+item.twf_calm:sword_of_lightning_bolt=Sword of Lightning Bolt Life
+item.twf_calm:sword_of_lingering_potion=Sword of Lingering Potion Life
+item.twf_calm:sword_of_llama=Sword of Llama Life
+item.twf_calm:sword_of_llama_spit=Sword of Llama Spit Life
+item.twf_calm:sword_of_magma_cube=Sword of Magma Cube Life
+item.twf_calm:sword_of_minecart=Sword of Minecart Life
+item.twf_calm:sword_of_mooshroom=Sword of Mooshroom Life
+item.twf_calm:sword_of_mule=Sword of Mule Life
+item.twf_calm:sword_of_ocelot=Sword of Ocelot Life
+item.twf_calm:sword_of_panda=Sword of Panda Life
+item.twf_calm:sword_of_parrot=Sword of Parrot Life
+item.twf_calm:sword_of_phantom=Sword of Phantom Life
+item.twf_calm:sword_of_pig=Sword of Pig Life
+item.twf_calm:sword_of_piglin=Sword of Piglin Life
+item.twf_calm:sword_of_piglin_brute=Sword of Piglin Brute Life
+item.twf_calm:sword_of_pillager=Sword of Pillager Life
+item.twf_calm:sword_of_player=Sword of Player Life
+item.twf_calm:sword_of_polar_bear=Sword of Polar Bear Life
+item.twf_calm:sword_of_pufferfish=Sword of Pufferfish Life
+item.twf_calm:sword_of_rabbit=Sword of Rabbit Life
+item.twf_calm:sword_of_ravager=Sword of Ravager Life
+item.twf_calm:sword_of_salmon=Sword of Salmon Life
+item.twf_calm:sword_of_sheep=Sword of Sheep Life
+item.twf_calm:sword_of_shulker=Sword of Shulker Life
+item.twf_calm:sword_of_shulker_bullet=Sword of Shulker Bullet Life
+item.twf_calm:sword_of_silverfish=Sword of Silverfish Life
+item.twf_calm:sword_of_skeleton=Sword of Skeleton Life
+item.twf_calm:sword_of_skeleton_horse=Sword of Skeleton Horse Life
+item.twf_calm:sword_of_slime=Sword of Slime Life
+item.twf_calm:sword_of_small_fireball=Sword of Small Fireball Life
+item.twf_calm:sword_of_sniffer=Sword of Sniffer Life
+item.twf_calm:sword_of_snowball=Sword of Snowball Life
+item.twf_calm:sword_of_snow_golem=Sword of Snow Golem Life
+item.twf_calm:sword_of_spider=Sword of Spider Life
+item.twf_calm:sword_of_splash_potion=Sword of Splash Potion Life
+item.twf_calm:sword_of_squid=Sword of Squid Life
+item.twf_calm:sword_of_stray=Sword of Stray Life
+item.twf_calm:sword_of_strider=Sword of Strider Life
+item.twf_calm:sword_of_tadpole=Sword of Tadpole Life
+item.twf_calm:sword_of_thrown_trident=Sword of Thrown Trident Life
+item.twf_calm:sword_of_tnt=Sword of Tnt Life
+item.twf_calm:sword_of_tnt_minecart=Sword of Tnt Minecart Life
+item.twf_calm:sword_of_trader_llama=Sword of Trader Llama Life
+item.twf_calm:sword_of_tripod_camera=Sword of Tripod Camera Life
+item.twf_calm:sword_of_tropicalfish=Sword of Tropical Fish Life
+item.twf_calm:sword_of_turtle=Sword of Turtle Life
+item.twf_calm:sword_of_vex=Sword of Vex Life
+item.twf_calm:sword_of_villager=Sword of Villager Life
+item.twf_calm:sword_of_villager_v2=Sword of New Villager Life
+item.twf_calm:sword_of_vindicator=Sword of Vindicator Life
+item.twf_calm:sword_of_wandering_trader=Sword of Wandering Trader Life
+item.twf_calm:sword_of_warden=Sword of Warden Life
+item.twf_calm:sword_of_witch=Sword of Witch Life
+item.twf_calm:sword_of_wither=Sword of Wither Life
+item.twf_calm:sword_of_wither_skeleton=Sword of Wither Skeleton Life
+item.twf_calm:sword_of_wither_skull=Sword of Wither Skull Life
+item.twf_calm:sword_of_wither_skull_dangerous=Sword of Wither Skull Dangerous Life
+item.twf_calm:sword_of_wolf=Sword of Wolf Life
+item.twf_calm:sword_of_xp_bottle=Sword of Xp Bottle Life
+item.twf_calm:sword_of_xp_orb=Sword of Xp Orb Life
+item.twf_calm:sword_of_zoglin=Sword of Zoglin Life
+item.twf_calm:sword_of_zombie=Sword of Zombie Life
+item.twf_calm:sword_of_zombie_horse=Sword of Zombie Horse Life
+item.twf_calm:sword_of_zombie_pigman=Sword of Zombie Pigman Life
+item.twf_calm:sword_of_zombie_villager=Sword of Zombie Villager Life
+item.twf_calm:sword_of_zombie_villager_v2=Sword of New Zombie Villager Life
+item.twf_calm:axe_of_axolotl=Axe of Axolotl
+itemGroup.name.life=Life
+
+twf_calm:jig_computer.addon_stats=C.A.L.M. Stats
+
+twf_calm:controller=Life Controllers
+twf_calm:destroyer=Life Destroyers
+twf_calm:builder=Life Builders
+twf_calm:randomiser=Life Randomizers
+twf_calm:converter=Cell Converters
+twf_calm:simulation=Life Simulation Steps
+twf_calm:weapon=Bonus Weapons
+twf_calm:mechanoid=Mechanoids
+
+twf_calm:cell_born=Life Cells Created
+
+twf_calm:credits.for.computers=C.A.L.M is by The World Foundry.

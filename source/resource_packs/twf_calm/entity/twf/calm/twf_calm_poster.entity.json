@@ -1,0 +1,38 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "twf_calm:poster",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+            "textures": {
+                "default":   "textures/twf/calm/entity/twf_calm_poster_a_tex.png",
+				"variant_1": "textures/twf/calm/entity/twf_calm_poster_b_tex.png",
+				"variant_2": "textures/twf/calm/entity/twf_calm_poster_c_tex.png",
+				"variant_3": "textures/twf/calm/entity/twf_calm_poster_d_tex.png",
+				"variant_4": "textures/twf/calm/entity/twf_calm_poster_e_tex.png",
+				"variant_5": "textures/twf/calm/entity/twf_calm_poster_f_tex.png",
+				"variant_6": "textures/twf/calm/entity/twf_calm_poster_g_tex.png",
+				"variant_7": "textures/twf/calm/entity/twf_calm_poster_h_tex.png"
+            },
+			"geometry": {
+				"default": "geometry.twf_calm_poster"
+			},
+			"render_controllers": [
+                "controller.render.single_poster_texture"
+            ],
+            "animations": {
+                "base_pose": "animation.twf_calm_poster.hold"
+            },
+            "scripts": {
+                "animate": [
+                    "base_pose"
+                ]
+            },
+			"spawn_egg": {
+				"texture": "twf_calm_poster_item"
+			}
+		}
+	}
+}

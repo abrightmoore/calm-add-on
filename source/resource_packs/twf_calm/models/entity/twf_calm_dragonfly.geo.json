@@ -1,0 +1,60 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.twf_calm_dragonfly",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "right",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 0, -45],
+					"cubes": [
+						{"origin": [-0.25, 1, 0], "size": [0.25, 13, 3], "uv": [0, -2]},
+						{"origin": [-0.25, 0, -4], "size": [0.25, 15, 3], "uv": [0, -2]}
+					]
+				},
+				{
+					"name": "left",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 0, 45],
+					"cubes": [
+						{"origin": [0, 1, 0], "size": [0.25, 13, 3], "uv": [0, -2], "mirror": true},
+						{"origin": [0, 0, -4], "size": [0.25, 15, 3], "uv": [0, -2], "mirror": true}
+					]
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-2, 0, -8], "size": [4, 2, 2], "uv": [0, 0]},
+						{
+							"origin": [-1, 0, -6],
+							"size": [2, 1, 16],
+							"uv": {
+								"east": {"uv": [0, 8], "uv_size": [16, 1]},
+								"south": {"uv": [4, 4], "uv_size": [2, 1]},
+								"west": {"uv": [0, 7], "uv_size": [16, 1]},
+								"up": {"uv": [7, 0], "uv_size": [2, 16]},
+								"down": {"uv": [9, 16], "uv_size": [-2, -16]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

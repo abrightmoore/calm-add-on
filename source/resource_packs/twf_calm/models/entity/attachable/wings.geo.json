@@ -1,0 +1,49 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.twf_calm_wings",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 14, 0]
+				},
+				{
+					"name": "chestplate",
+					"parent": "body",
+					"pivot": [0, 0, 0],
+					"binding": "'body'",
+					"cubes": [
+						{
+							"origin": [-8, 5, 4.75],
+							"size": [16, 16, 16],
+							"pivot": [0, 13, 12.75],
+							"rotation": [0, 45, 0],
+							"uv": {
+								"north": {"uv": [16, 0], "uv_size": [-16, 16]},
+								"west": {"uv": [0, 0], "uv_size": [16, 16]}
+							}
+						},
+						{
+							"origin": [-8, 1, 5.5],
+							"size": [16, 16, 16],
+							"pivot": [0, 9, 13.5],
+							"rotation": [-10.54684, 44.5119, -7.43656],
+							"uv": {
+								"north": {"uv": [16, 0], "uv_size": [-16, 16]},
+								"west": {"uv": [0, 0], "uv_size": [16, 16]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

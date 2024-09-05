@@ -1,0 +1,30 @@
+{
+	"format_version": "1.19.40",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "twf_calm:life_randomiser",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:loot": {
+                "table": "loot_tables/entities/twf/calm/randomiser_loot.json"
+            },	
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false
+			},
+			"minecraft:pushable": {
+				"is_pushable": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:collision_box": {
+                "width": 0.0,
+                "height": 0.0
+			}			
+		}
+	}
+}

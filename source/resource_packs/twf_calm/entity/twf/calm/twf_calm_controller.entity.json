@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "twf_calm:life_controller",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/twf/calm/entity/twf_calm_sphere1"
+			},
+			"geometry": {
+				"default": "geometry.twf_calm_sphere_gen"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"texture": "twf_calm_controller_item"
+			}
+		}
+	}
+}

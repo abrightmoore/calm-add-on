@@ -1,0 +1,31 @@
+{
+    "format_version": "1.10.0", 
+    "minecraft:client_entity": {
+        "description": {
+            "animations": {
+                "base_pose": "animation.twf_calm_vehiclick.base_pose"
+            }, 
+            "geometry": {
+                "default": "geometry.twf_calm_vehiclick"
+            }, 
+            "identifier": "twf_calm:vehiclick", 
+            "materials": {
+                "default": "entity"
+            }, 
+            "render_controllers": [
+                "controller.render.default"
+            ], 
+            "scripts": {
+                "animate": [
+                    "base_pose"
+                ]
+            }, 
+            "spawn_egg": {
+                "texture": "twf_calm_vehiclick"
+            }, 
+            "textures": {
+                "default": "textures/twf/calm/entity/vehiclick"
+            }
+        }
+    }
+}

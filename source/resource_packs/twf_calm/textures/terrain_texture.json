@@ -1,0 +1,120 @@
+{
+    "num_mip_levels": 0,
+    "padding": 8,
+    "resource_pack_name": "twf_calm",
+    "texture_data": {
+        "twf_calm_cell": {
+            "textures": [
+                {
+                    "variations": [
+                        "textures/twf/calm/blocks/cell/a",
+                        "textures/twf/calm/blocks/cell/b",
+                        "textures/twf/calm/blocks/cell/c",
+                        "textures/twf/calm/blocks/cell/d",
+                        "textures/twf/calm/blocks/cell/e",
+                        "textures/twf/calm/blocks/cell/f",
+                        "textures/twf/calm/blocks/cell/g",
+                        "textures/twf/calm/blocks/cell/h",
+                        "textures/twf/calm/blocks/cell/i",
+                        "textures/twf/calm/blocks/cell/j",
+                        "textures/twf/calm/blocks/cell/k",
+                        "textures/twf/calm/blocks/cell/l",
+                        "textures/twf/calm/blocks/cell/m",
+                        "textures/twf/calm/blocks/cell/n",
+                        "textures/twf/calm/blocks/cell/o",
+                        "textures/twf/calm/blocks/cell/p",
+                        "textures/twf/calm/blocks/cell/q",
+                        "textures/twf/calm/blocks/cell/r",
+                        "textures/twf/calm/blocks/cell/s",
+                        "textures/twf/calm/blocks/cell/t",
+                        "textures/twf/calm/blocks/cell/u",
+                        "textures/twf/calm/blocks/cell/v",
+                        "textures/twf/calm/blocks/cell/w",
+                        "textures/twf/calm/blocks/cell/x",
+                        "textures/twf/calm/blocks/cell/y",
+                        "textures/twf/calm/blocks/cell/z"
+                    ]
+                }
+            ]
+        },
+        "twf_calm_cell.1": {
+            "textures": "textures/twf/calm/blocks/cell/a"
+        },
+        "twf_calm_cell.2": {
+            "textures": "textures/twf/calm/blocks/cell/b"
+        },
+        "twf_calm_cell.3": {
+            "textures": "textures/twf/calm/blocks/cell/c"
+        },
+        "twf_calm_cell.4": {
+            "textures": "textures/twf/calm/blocks/cell/d"
+        },
+        "twf_calm_cell.5": {
+            "textures": "textures/twf/calm/blocks/cell/e"
+        },
+        "twf_calm_cell.6": {
+            "textures": "textures/twf/calm/blocks/cell/f"
+        },
+        "twf_calm_cell.7": {
+            "textures": "textures/twf/calm/blocks/cell/g"
+        },
+        "twf_calm_cell.8": {
+            "textures": "textures/twf/calm/blocks/cell/h"
+        },
+        "twf_calm_cell.9": {
+            "textures": "textures/twf/calm/blocks/cell/i"
+        },
+        "twf_calm_cell.10": {
+            "textures": "textures/twf/calm/blocks/cell/j"
+        },
+        "twf_calm_cell.11": {
+            "textures": "textures/twf/calm/blocks/cell/k"
+        },
+        "twf_calm_cell.12": {
+            "textures": "textures/twf/calm/blocks/cell/l"
+        },
+        "twf_calm_cell.13": {
+            "textures": "textures/twf/calm/blocks/cell/m"
+        },
+        "twf_calm_cell.14": {
+            "textures": "textures/twf/calm/blocks/cell/n"
+        },
+        "twf_calm_cell.15": {
+            "textures": "textures/twf/calm/blocks/cell/o"
+        },
+        "twf_calm_cell.16": {
+            "textures": "textures/twf/calm/blocks/cell/p"
+        },
+        "twf_calm_cell.17": {
+            "textures": "textures/twf/calm/blocks/cell/q"
+        },
+        "twf_calm_cell.18": {
+            "textures": "textures/twf/calm/blocks/cell/r"
+        },
+        "twf_calm_cell.19": {
+            "textures": "textures/twf/calm/blocks/cell/s"
+        },
+        "twf_calm_cell.20": {
+            "textures": "textures/twf/calm/blocks/cell/t"
+        },
+        "twf_calm_cell.21": {
+            "textures": "textures/twf/calm/blocks/cell/u"
+        },
+        "twf_calm_cell.22": {
+            "textures": "textures/twf/calm/blocks/cell/v"
+        },
+        "twf_calm_cell.23": {
+            "textures": "textures/twf/calm/blocks/cell/w"
+        },
+        "twf_calm_cell.24": {
+            "textures": "textures/twf/calm/blocks/cell/x"
+        },
+        "twf_calm_cell.25": {
+            "textures": "textures/twf/calm/blocks/cell/y"
+        },
+        "twf_calm_cell.26": {
+            "textures": "textures/twf/calm/blocks/cell/z"
+        }		
+    },
+    "texture_name": "atlas.terrain"
+}

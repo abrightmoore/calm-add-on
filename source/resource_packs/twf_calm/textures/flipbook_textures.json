@@ -1,0 +1,158 @@
+[
+  {
+    "atlas_tile": "twf_calm_cell.1",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/a",
+    "blend_frames": true,
+    "ticks_per_frame": 1
+  },
+  {
+    "atlas_tile": "twf_calm_cell.2",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/b",
+    "blend_frames": true,
+    "ticks_per_frame": 2
+  },
+  {
+    "atlas_tile": "twf_calm_cell.3",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/c",
+    "blend_frames": true,
+    "ticks_per_frame": 3
+  },
+  {
+    "atlas_tile": "twf_calm_cell.4",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/d",
+    "blend_frames": true,
+    "ticks_per_frame": 4
+  },
+  {
+    "atlas_tile": "twf_calm_cell.5",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/e",
+    "blend_frames": true,
+    "ticks_per_frame": 5
+  },
+  {
+    "atlas_tile": "twf_calm_cell.6",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/f",
+    "blend_frames": true,
+    "ticks_per_frame": 6
+  },
+  {
+    "atlas_tile": "twf_calm_cell.7",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/g",
+    "blend_frames": true,
+    "ticks_per_frame": 7
+  },
+  {
+    "atlas_tile": "twf_calm_cell.8",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/h",
+    "blend_frames": true,
+    "ticks_per_frame": 8
+  },
+  {
+    "atlas_tile": "twf_calm_cell.9",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/i",
+    "blend_frames": true,
+    "ticks_per_frame": 9
+  },  
+  {
+    "atlas_tile": "twf_calm_cell.10",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/j",
+    "blend_frames": true,
+    "ticks_per_frame": 8
+  },  
+  {
+    "atlas_tile": "twf_calm_cell.11",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/k",
+    "blend_frames": true,
+    "ticks_per_frame": 7
+  },
+  {
+    "atlas_tile": "twf_calm_cell.12",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/l",
+    "blend_frames": true,
+    "ticks_per_frame": 6
+  },
+  {
+    "atlas_tile": "twf_calm_cell.13",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/m",
+    "blend_frames": true,
+    "ticks_per_frame": 5
+  },
+  {
+    "atlas_tile": "twf_calm_cell.14",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/n",
+    "blend_frames": true,
+    "ticks_per_frame": 4
+  },
+  {
+    "atlas_tile": "twf_calm_cell.15",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/o",
+    "blend_frames": true,
+    "ticks_per_frame": 3
+  },
+  {
+    "atlas_tile": "twf_calm_cell.16",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/p",
+    "blend_frames": true,
+    "ticks_per_frame": 2
+  },
+  {
+    "atlas_tile": "twf_calm_cell.17",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/q",
+    "blend_frames": true,
+    "ticks_per_frame": 1
+  },
+  {
+    "atlas_tile": "twf_calm_cell.18",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/r",
+    "blend_frames": true,
+    "ticks_per_frame": 1
+  },
+  {
+    "atlas_tile": "twf_calm_cell.19",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/s",
+    "blend_frames": true,
+    "ticks_per_frame": 1
+  },
+  {
+    "atlas_tile": "twf_calm_cell.20",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/t",
+    "blend_frames": true,
+    "ticks_per_frame": 1
+  },
+  {
+    "atlas_tile": "twf_calm_cell.21",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/u",
+    "blend_frames": true,
+    "ticks_per_frame": 1
+  },
+  {
+    "atlas_tile": "twf_calm_cell.22",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/v",
+    "blend_frames": true,
+    "ticks_per_frame": 1
+  },
+  {
+    "atlas_tile": "twf_calm_cell.23",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/w",
+    "blend_frames": true,
+    "ticks_per_frame": 1
+  },
+  {
+    "atlas_tile": "twf_calm_cell.24",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/x",
+    "blend_frames": true,
+    "ticks_per_frame": 1
+  },
+  {
+    "atlas_tile": "twf_calm_cell.25",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/y",
+    "blend_frames": true,
+    "ticks_per_frame": 1
+  },
+  {
+    "atlas_tile": "twf_calm_cell.26",
+	"flipbook_texture": "textures/twf/calm/blocks/cell/z",
+    "blend_frames": true,
+    "ticks_per_frame": 1
+  }
+]

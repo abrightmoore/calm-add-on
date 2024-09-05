@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "twf_calm:recipe_7"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "#P#",
+            "###"
+        ],
+        "key": {
+            "P": {
+                "item": "minecraft:tnt"
+            },
+            "#": {
+                "item": "twf_calm:cell"
+            }
+        },
+        "result": {
+            "item": "twf_calm:life_destroyer_spawn_egg",
+            "data": 1
+        }
+    }
+}

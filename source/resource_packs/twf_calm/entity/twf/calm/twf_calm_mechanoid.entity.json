@@ -1,0 +1,120 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "twf_calm:mechanoid",
+            "materials": {
+                "default": "villager_v2"
+            },
+            "geometry": {
+                "default": "geometry.twfcalm_npcsteve"
+            },
+            "render_controllers": [
+                "controller.render.single_texture"
+            ],
+			"spawn_egg": {
+				"texture": "twf_calm_mechanoid_item"
+			},			
+            "textures": {
+                "default": "textures/twf/calm/entity/mechanoid/80.png",
+				"variant_1": "textures/twf/calm/entity/mechanoid/1.png",
+				"variant_2": "textures/twf/calm/entity/mechanoid/2.png",
+				"variant_3": "textures/twf/calm/entity/mechanoid/3.png",
+				"variant_4": "textures/twf/calm/entity/mechanoid/4.png",
+				"variant_5": "textures/twf/calm/entity/mechanoid/5.png",
+				"variant_6": "textures/twf/calm/entity/mechanoid/6.png",
+				"variant_7": "textures/twf/calm/entity/mechanoid/7.png",
+				"variant_8": "textures/twf/calm/entity/mechanoid/8.png",
+				"variant_9": "textures/twf/calm/entity/mechanoid/9.png",
+				"variant_10": "textures/twf/calm/entity/mechanoid/10.png",
+				"variant_11": "textures/twf/calm/entity/mechanoid/11.png",
+				"variant_12": "textures/twf/calm/entity/mechanoid/12.png",
+				"variant_13": "textures/twf/calm/entity/mechanoid/13.png",
+				"variant_14": "textures/twf/calm/entity/mechanoid/14.png",
+				"variant_15": "textures/twf/calm/entity/mechanoid/15.png",
+				"variant_16": "textures/twf/calm/entity/mechanoid/16.png",
+				"variant_17": "textures/twf/calm/entity/mechanoid/17.png",
+				"variant_18": "textures/twf/calm/entity/mechanoid/18.png",
+				"variant_19": "textures/twf/calm/entity/mechanoid/19.png",
+				"variant_20": "textures/twf/calm/entity/mechanoid/20.png",
+				"variant_21": "textures/twf/calm/entity/mechanoid/21.png",
+				"variant_22": "textures/twf/calm/entity/mechanoid/22.png",
+				"variant_23": "textures/twf/calm/entity/mechanoid/23.png",
+				"variant_24": "textures/twf/calm/entity/mechanoid/24.png",
+				"variant_25": "textures/twf/calm/entity/mechanoid/25.png",
+				"variant_26": "textures/twf/calm/entity/mechanoid/26.png",
+				"variant_27": "textures/twf/calm/entity/mechanoid/27.png",
+				"variant_28": "textures/twf/calm/entity/mechanoid/28.png",
+				"variant_29": "textures/twf/calm/entity/mechanoid/29.png",
+				"variant_30": "textures/twf/calm/entity/mechanoid/30.png",
+				"variant_31": "textures/twf/calm/entity/mechanoid/31.png",
+				"variant_32": "textures/twf/calm/entity/mechanoid/32.png",
+				"variant_33": "textures/twf/calm/entity/mechanoid/33.png",
+				"variant_34": "textures/twf/calm/entity/mechanoid/34.png",
+				"variant_35": "textures/twf/calm/entity/mechanoid/35.png",
+				"variant_36": "textures/twf/calm/entity/mechanoid/36.png",
+				"variant_37": "textures/twf/calm/entity/mechanoid/37.png",
+				"variant_38": "textures/twf/calm/entity/mechanoid/38.png",
+				"variant_39": "textures/twf/calm/entity/mechanoid/39.png",
+				"variant_40": "textures/twf/calm/entity/mechanoid/40.png",
+				"variant_41": "textures/twf/calm/entity/mechanoid/41.png",
+				"variant_42": "textures/twf/calm/entity/mechanoid/42.png",
+				"variant_43": "textures/twf/calm/entity/mechanoid/43.png",
+				"variant_44": "textures/twf/calm/entity/mechanoid/44.png",
+				"variant_45": "textures/twf/calm/entity/mechanoid/45.png",
+				"variant_46": "textures/twf/calm/entity/mechanoid/46.png",
+				"variant_47": "textures/twf/calm/entity/mechanoid/47.png",
+				"variant_48": "textures/twf/calm/entity/mechanoid/48.png",
+				"variant_49": "textures/twf/calm/entity/mechanoid/49.png",
+				"variant_50": "textures/twf/calm/entity/mechanoid/50.png",
+				"variant_51": "textures/twf/calm/entity/mechanoid/51.png",
+				"variant_52": "textures/twf/calm/entity/mechanoid/52.png",
+				"variant_53": "textures/twf/calm/entity/mechanoid/53.png",
+				"variant_54": "textures/twf/calm/entity/mechanoid/54.png",
+				"variant_55": "textures/twf/calm/entity/mechanoid/55.png",
+				"variant_56": "textures/twf/calm/entity/mechanoid/56.png",
+				"variant_57": "textures/twf/calm/entity/mechanoid/57.png",
+				"variant_58": "textures/twf/calm/entity/mechanoid/58.png",
+				"variant_59": "textures/twf/calm/entity/mechanoid/59.png",
+				"variant_60": "textures/twf/calm/entity/mechanoid/60.png",
+				"variant_61": "textures/twf/calm/entity/mechanoid/61.png",
+				"variant_62": "textures/twf/calm/entity/mechanoid/62.png",
+				"variant_63": "textures/twf/calm/entity/mechanoid/63.png",
+				"variant_64": "textures/twf/calm/entity/mechanoid/64.png",
+				"variant_65": "textures/twf/calm/entity/mechanoid/65.png",
+				"variant_66": "textures/twf/calm/entity/mechanoid/66.png",
+				"variant_67": "textures/twf/calm/entity/mechanoid/67.png",
+				"variant_68": "textures/twf/calm/entity/mechanoid/68.png",
+				"variant_69": "textures/twf/calm/entity/mechanoid/69.png",
+				"variant_70": "textures/twf/calm/entity/mechanoid/70.png",
+				"variant_71": "textures/twf/calm/entity/mechanoid/71.png",
+				"variant_72": "textures/twf/calm/entity/mechanoid/72.png",
+				"variant_73": "textures/twf/calm/entity/mechanoid/73.png",
+				"variant_74": "textures/twf/calm/entity/mechanoid/74.png",
+				"variant_75": "textures/twf/calm/entity/mechanoid/75.png",
+				"variant_76": "textures/twf/calm/entity/mechanoid/76.png",
+				"variant_77": "textures/twf/calm/entity/mechanoid/77.png",
+				"variant_78": "textures/twf/calm/entity/mechanoid/78.png",
+				"variant_79": "textures/twf/calm/entity/mechanoid/79.png"
+            },
+            "scripts": {
+                "scale": "0.9375",
+                "pre_animation": [
+                    "variable.tcos0 = (math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+                ],
+                "animate": [
+                    "move.arms",
+                    "move.legs",
+                    "look_at_target_default",
+                    "bob"
+                ]
+            },
+            "animations": {
+                "look_at_target_default": "animation.humanoid.look_at_target.default",
+                "move.arms": "animation.player.move.arms",
+                "move.legs": "animation.player.move.legs",
+                "bob": "animation.player.bob"
+            }
+        }
+    }
+}

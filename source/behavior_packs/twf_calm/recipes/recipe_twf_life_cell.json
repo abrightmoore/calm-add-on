@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "twf_calm:recipe_life_cell"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+			{
+                "item": "minecraft:frog_spawn"
+            },
+			{
+                "item": "minecraft:honeycomb"
+            }
+        ],
+        "result": {
+            "item": "twf_calm:cell"
+        }
+    }
+}

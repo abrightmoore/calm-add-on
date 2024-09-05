@@ -1,0 +1,43 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.twf_calm_moth",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "right",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 0, -45],
+					"cubes": [
+						{"origin": [-0.25, 1, 0], "size": [0.25, 4, 4], "uv": [0, 0]},
+						{"origin": [-0.25, 0, -6], "size": [0.25, 7, 6], "uv": [0, 0]},
+						{"origin": [-0.25, 1, 4], "size": [0.25, 1, 4], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "left",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 0, 45],
+					"cubes": [
+						{"origin": [0, 1, 0], "size": [0.25, 4, 4], "uv": [0, 0], "mirror": true},
+						{"origin": [0, 0, -6], "size": [0.25, 7, 6], "uv": [0, 0], "mirror": true},
+						{"origin": [0, 1, 4], "size": [0.25, 1, 4], "uv": [0, 0], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

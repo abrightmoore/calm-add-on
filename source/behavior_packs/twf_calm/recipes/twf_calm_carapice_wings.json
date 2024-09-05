@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "twf_calm:carapice_wings"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "twf_calm:carapice"
+            },
+			{
+				"item": "twf_calm:wings"
+			}
+        ],
+        "result": {
+            "item": "twf_calm:carapice_wings"
+        }
+    }
+}

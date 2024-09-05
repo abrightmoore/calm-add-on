@@ -1,0 +1,497 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "twf_calm:axe_of_axolotl",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_allay",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_armor_stand",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_arrow",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_axolotl",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_bat",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_bee",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_blaze",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_boat",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_camel",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_cat",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_cave_spider",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_chest_boat",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_chest_minecart",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_chicken",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_cod",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_cow",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_creeper",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_dolphin",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_donkey",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_dragon_fireball",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_drowned",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_egg",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_elder_guardian",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_enderman",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_endermite",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_ender_crystal",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_ender_dragon",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_ender_pearl",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_evocation_illager",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_eye_of_ender_signal",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_fireball",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_fox",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_frog",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_ghast",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_glow_squid",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_goat",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_guardian",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_hoglin",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_hopper_minecart",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_horse",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_husk",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_iron_golem",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_life",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_lightning_bolt",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_llama",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_magma_cube",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_minecart",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_mooshroom",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_mule",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_ocelot",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_panda",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_parrot",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_phantom",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_piglin_brute",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_piglin",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_pig",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_pillager",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_polar_bear",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_pufferfish",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_rabbit",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_ravager",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_salmon",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_sheep",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_shulker",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_silverfish",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_skeleton_horse",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_skeleton",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_slime",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_sniffer",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_snow_golem",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_spider",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_squid",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_stray",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_strider",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_tadpole",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_tnt",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_tnt_minecart",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_trader_llama",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_tropicalfish",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_turtle",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_vex",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_villager",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_villager_v2",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_vindicator",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_wandering_trader",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_warden",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_witch",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_wither",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_wither_skeleton",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_wolf",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_zoglin",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_zombie_horse",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_zombie",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_zombie_pigman",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_zombie_villager",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "twf_calm:sword_of_zombie_villager_v2",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

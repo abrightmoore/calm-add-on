@@ -1,0 +1,45 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "pack.description",
+		"min_engine_version": [1, 20, 81],
+		"name": "pack.name",
+		"uuid": "c29d818c-e263-465f-9567-c159eb1883a1",
+		"version": [1, 0, 1],
+		"pack_scope": "world"
+	},
+	"metadata": {
+		"product_type": "addon",
+		"authors": ["TheWorldFoundry"]
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"type": "data",
+			"uuid": "8d3799e0-b949-425e-830e-efb8da8e12b1",
+			"version": [1, 0, 1]
+		},
+		{
+			"description": "Scripting",
+			"uuid": "b30570c2-b1c4-4b99-a573-24cd98291161",
+			"version": [1, 0, 1],
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/twf/calm/calm_v1.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.9.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.1.0"
+		},		
+		{
+			"uuid": "a962a3ea-f2f3-4fd5-a6a2-ea2b0ceba1d4",
+			"version": [1, 0, 1]
+		}
+	]
+}

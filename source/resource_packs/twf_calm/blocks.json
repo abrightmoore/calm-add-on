@@ -1,0 +1,11 @@
+{
+    "format_version": [
+        1,
+        16,
+        0
+    ],
+    "twf_calm:cell": {
+        "sound": "metal",
+        "textures": "twf_calm_cell"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "twf_calm:recipe_107"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "   ",
+            "###",
+            "P #"
+        ],
+        "key": {
+            "P": {
+                "item": "minecraft:stick"
+            },
+            "#": {
+                "item": "twf_calm:cell"
+            }
+        },
+        "result": {
+            "item": "twf_calm:sword_of_wither",
+            "data": 1
+        }
+    }
+}

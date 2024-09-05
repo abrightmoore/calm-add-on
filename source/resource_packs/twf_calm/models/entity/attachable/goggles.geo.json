@@ -1,0 +1,40 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.twf_calm_goggles",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root_item",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "helmet",
+					"parent": "root_item",
+					"pivot": [0, 0, 0],
+					"binding": "'head'",
+					"cubes": [
+						{"origin": [-3, 4, -6], "size": [2, 2, 2], "uv": [0, 0]},
+						{"origin": [1, 4, -6], "size": [2, 2, 2], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "rightArm",
+					"pivot": [-2, 5, -3]
+				},
+				{
+					"name": "leftArm",
+					"parent": "rightArm",
+					"pivot": [2, 5, -3]
+				}
+			]
+		}
+	]
+}

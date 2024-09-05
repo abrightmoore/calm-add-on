@@ -1,0 +1,28 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "pack.description",
+		"name": "pack.name",
+		"uuid": "a962a3ea-f2f3-4fd5-a6a2-ea2b0ceba1d4",
+		"version": [1, 0, 1],
+		"min_engine_version": [1, 20, 81],
+		"pack_scope": "world"
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "60e9c47f-6813-427b-91e4-0ad11ddaa1da",
+			"version": [1, 0, 1]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "c29d818c-e263-465f-9567-c159eb1883a1",
+			"version": [1, 0, 1]
+		}
+	],
+	"metadata": {
+		"product_type": "addon",
+		"authors": ["TheWorldFoundry"]
+	}
+}

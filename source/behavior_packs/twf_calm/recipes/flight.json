@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "twf_calm:flight"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "twf_calm:sword_of_life"
+            },
+			{
+				"item": "minecraft:feather"
+			}
+        ],
+        "result": {
+            "item": "twf_calm:flight"
+        }
+    }
+}

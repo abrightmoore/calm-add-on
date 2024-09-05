@@ -1,0 +1,21 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "name": "twf_calm:life_converter_spawn_egg", 
+                    "type": "item",
+                    "weight": 1,
+                    "functions": [
+						{
+							"count": 1,
+							"function": "set_count"
+						}
+                    ]
+                }
+            ]
+
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:spawn_rules": {
+        "description": {
+            "identifier": "twf_calm:dragonfly",
+            "population_control": "animal"
+        },
+        "conditions": [
+            {
+                "minecraft:spawns_on_surface": {},
+                "minecraft:brightness_filter": {
+                    "min": 5,
+                    "max": 12,
+                    "adjust_for_weather": false
+                },
+                "minecraft:weight": {
+                    "default": 12
+                },
+				"minecraft:herd": {
+				  "min_size":1,
+				  "max_size":5
+				},
+				"minecraft:biome_filter": {
+				  "test": "has_biome_tag", "operator":"==", "value": "animal"
+				}
+            }
+        ]
+    }
+}

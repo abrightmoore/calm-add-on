@@ -1,0 +1,102 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.single_texture": {
+            "arrays": {
+                "textures": {
+                    "Array.variant": [
+                        "Texture.default",
+                        "Texture.variant_1",
+                        "Texture.variant_2",
+                        "Texture.variant_3",
+                        "Texture.variant_4",
+                        "Texture.variant_5",
+                        "Texture.variant_6",
+                        "Texture.variant_7",
+                        "Texture.variant_8",
+                        "Texture.variant_9",
+                        "Texture.variant_10",
+                        "Texture.variant_11",
+                        "Texture.variant_12",
+                        "Texture.variant_13",
+                        "Texture.variant_14",
+                        "Texture.variant_15",
+                        "Texture.variant_16",
+                        "Texture.variant_17",
+                        "Texture.variant_18",
+                        "Texture.variant_19",
+                        "Texture.variant_20",
+                        "Texture.variant_21",
+                        "Texture.variant_22",
+                        "Texture.variant_23",
+                        "Texture.variant_24",
+                        "Texture.variant_25",
+                        "Texture.variant_26",
+                        "Texture.variant_27",
+                        "Texture.variant_28",
+                        "Texture.variant_29",
+                        "Texture.variant_30",
+                        "Texture.variant_31",
+                        "Texture.variant_32",
+                        "Texture.variant_33",
+                        "Texture.variant_34",
+                        "Texture.variant_35",
+                        "Texture.variant_36",
+                        "Texture.variant_37",
+                        "Texture.variant_38",
+                        "Texture.variant_39",
+                        "Texture.variant_40",
+                        "Texture.variant_41",
+                        "Texture.variant_42",
+                        "Texture.variant_43",
+                        "Texture.variant_44",
+                        "Texture.variant_45",
+                        "Texture.variant_46",
+                        "Texture.variant_47",
+                        "Texture.variant_48",
+                        "Texture.variant_49",
+                        "Texture.variant_50",
+                        "Texture.variant_51",
+                        "Texture.variant_52",
+                        "Texture.variant_53",
+                        "Texture.variant_54",
+                        "Texture.variant_55",
+                        "Texture.variant_56",
+                        "Texture.variant_57",
+                        "Texture.variant_58",
+                        "Texture.variant_59",
+                        "Texture.variant_60",
+                        "Texture.variant_61",
+                        "Texture.variant_62",
+                        "Texture.variant_63",
+                        "Texture.variant_64",
+                        "Texture.variant_65",
+                        "Texture.variant_66",
+                        "Texture.variant_67",
+                        "Texture.variant_68",
+                        "Texture.variant_69",
+                        "Texture.variant_70",
+                        "Texture.variant_71",
+                        "Texture.variant_72",
+                        "Texture.variant_73",
+                        "Texture.variant_74",
+                        "Texture.variant_75",
+                        "Texture.variant_76",
+                        "Texture.variant_77",
+                        "Texture.variant_78",
+                        "Texture.variant_79"
+                    ]
+                }
+            },
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "Array.variant[ query.variant ]"
+            ]
+        }
+    }
+}

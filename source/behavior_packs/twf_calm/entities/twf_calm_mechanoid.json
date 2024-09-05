@@ -1,0 +1,713 @@
+{
+    "format_version": "1.19.40",
+    "minecraft:entity": {
+           "description": {
+            "identifier": "twf_calm:mechanoid",
+            "is_spawnable": true,
+            "is_summonable": true
+        },
+        "components": 
+		{
+			"minecraft:rideable": {
+              "seat_count": 1,
+              "family_types": [
+                "player",
+                "zombie"
+              ],
+              "interact_text": "action.interact.mount",
+              "seats": {
+                "position": [ 0.0, 1.2, -0.4 ]
+              }
+
+            },	
+			"minecraft:health": {
+				"value": 5,
+				"max": 5
+			},			
+			"minecraft:loot": {
+                "table": "loot_tables/entities/twf/calm/mechanoid_loot.json"
+            },
+            "minecraft:physics": {},
+            "minecraft:nameable": {},
+            "minecraft:movement": {
+                "value": 0.25
+            },
+            "minecraft:movement.basic": {},
+            "minecraft:jump.static": {},
+            "minecraft:navigation.walk": {
+                "avoid_water": true
+            },
+            "minecraft:behavior.tempt": {
+                "priority": 1,
+                "speed_multiplier": 1.4,
+                "items": ["twf_calm:cell"],
+                "within_radius": 7.0
+            },
+            "minecraft:behavior.random_stroll":
+            {
+                "priority": 3,
+                "speed_multiplier": 0.8
+            },
+            "minecraft:experience_reward": {
+                "on_death": 1
+            }
+            
+        },
+        "component_groups": {
+            "compass:color_0": {
+            "minecraft:variant": {"value": 0}
+            },
+            "compass:color_1": {
+            "minecraft:variant": {"value": 1}
+            },
+            "compass:color_2": {
+            "minecraft:variant": {"value": 2}
+            },
+            "compass:color_3": {
+            "minecraft:variant": {"value": 3}
+            },
+            "compass:color_4": {
+            "minecraft:variant": {"value": 4}
+            },
+            "compass:color_5": {
+            "minecraft:variant": {"value": 5}
+            },
+            "compass:color_6": {
+            "minecraft:variant": {"value": 6}
+            },
+            "compass:color_7": {
+            "minecraft:variant": {"value": 7}
+            },
+            "compass:color_8": {
+            "minecraft:variant": {"value": 8}
+            },
+            "compass:color_9": {
+            "minecraft:variant": {"value": 9}
+            },
+            "compass:color_10": {
+            "minecraft:variant": {"value": 10}
+            },
+            "compass:color_11": {
+            "minecraft:variant": {"value": 11}
+            },
+            "compass:color_12": {
+            "minecraft:variant": {"value": 12}
+            },
+            "compass:color_13": {
+            "minecraft:variant": {"value": 13}
+            },
+            "compass:color_14": {
+            "minecraft:variant": {"value": 14}
+            },
+            "compass:color_15": {
+            "minecraft:variant": {"value": 15}
+            },
+            "compass:color_16": {
+            "minecraft:variant": {"value": 16}
+            },
+            "compass:color_17": {
+            "minecraft:variant": {"value": 17}
+            },
+            "compass:color_18": {
+            "minecraft:variant": {"value": 18}
+            },
+            "compass:color_19": {
+            "minecraft:variant": {"value": 19}
+            },
+            "compass:color_20": {
+            "minecraft:variant": {"value": 20}
+            },
+            "compass:color_21": {
+            "minecraft:variant": {"value": 21}
+            },
+            "compass:color_22": {
+            "minecraft:variant": {"value": 22}
+            },
+            "compass:color_23": {
+            "minecraft:variant": {"value": 23}
+            },
+            "compass:color_24": {
+            "minecraft:variant": {"value": 24}
+            },
+            "compass:color_25": {
+            "minecraft:variant": {"value": 25}
+            },
+            "compass:color_26": {
+            "minecraft:variant": {"value": 26}
+            },
+            "compass:color_27": {
+            "minecraft:variant": {"value": 27}
+            },
+            "compass:color_28": {
+            "minecraft:variant": {"value": 28}
+            },
+            "compass:color_29": {
+            "minecraft:variant": {"value": 29}
+            },
+            "compass:color_30": {
+            "minecraft:variant": {"value": 30}
+            },
+            "compass:color_31": {
+            "minecraft:variant": {"value": 31}
+            },
+            "compass:color_32": {
+            "minecraft:variant": {"value": 32}
+            },
+            "compass:color_33": {
+            "minecraft:variant": {"value": 33}
+            },
+            "compass:color_34": {
+            "minecraft:variant": {"value": 34}
+            },
+            "compass:color_35": {
+            "minecraft:variant": {"value": 35}
+            },
+            "compass:color_36": {
+            "minecraft:variant": {"value": 36}
+            },
+            "compass:color_37": {
+            "minecraft:variant": {"value": 37}
+            },
+            "compass:color_38": {
+            "minecraft:variant": {"value": 38}
+            },
+            "compass:color_39": {
+            "minecraft:variant": {"value": 39}
+            },
+            "compass:color_40": {
+            "minecraft:variant": {"value": 40}
+            },
+            "compass:color_41": {
+            "minecraft:variant": {"value": 41}
+            },
+            "compass:color_42": {
+            "minecraft:variant": {"value": 42}
+            },
+            "compass:color_43": {
+            "minecraft:variant": {"value": 43}
+            },
+            "compass:color_44": {
+            "minecraft:variant": {"value": 44}
+            },
+            "compass:color_45": {
+            "minecraft:variant": {"value": 45}
+            },
+            "compass:color_46": {
+            "minecraft:variant": {"value": 46}
+            },
+            "compass:color_47": {
+            "minecraft:variant": {"value": 47}
+            },
+            "compass:color_48": {
+            "minecraft:variant": {"value": 48}
+            },
+            "compass:color_49": {
+            "minecraft:variant": {"value": 49}
+            },
+            "compass:color_50": {
+            "minecraft:variant": {"value": 50}
+            },
+            "compass:color_51": {
+            "minecraft:variant": {"value": 51}
+            },
+            "compass:color_52": {
+            "minecraft:variant": {"value": 52}
+            },
+            "compass:color_53": {
+            "minecraft:variant": {"value": 53}
+            },
+            "compass:color_54": {
+            "minecraft:variant": {"value": 54}
+            },
+            "compass:color_55": {
+            "minecraft:variant": {"value": 55}
+            },
+            "compass:color_56": {
+            "minecraft:variant": {"value": 56}
+            },
+            "compass:color_57": {
+            "minecraft:variant": {"value": 57}
+            },
+            "compass:color_58": {
+            "minecraft:variant": {"value": 58}
+            },
+            "compass:color_59": {
+            "minecraft:variant": {"value": 59}
+            },
+            "compass:color_60": {
+            "minecraft:variant": {"value": 60}
+            },
+            "compass:color_61": {
+            "minecraft:variant": {"value": 61}
+            },
+            "compass:color_62": {
+            "minecraft:variant": {"value": 62}
+            },
+            "compass:color_63": {
+            "minecraft:variant": {"value": 63}
+            },
+            "compass:color_64": {
+            "minecraft:variant": {"value": 64}
+            },
+            "compass:color_65": {
+            "minecraft:variant": {"value": 65}
+            },
+            "compass:color_66": {
+            "minecraft:variant": {"value": 66}
+            },
+            "compass:color_67": {
+            "minecraft:variant": {"value": 67}
+            },
+            "compass:color_68": {
+            "minecraft:variant": {"value": 68}
+            },
+            "compass:color_69": {
+            "minecraft:variant": {"value": 69}
+            },
+            "compass:color_70": {
+            "minecraft:variant": {"value": 70}
+            },
+            "compass:color_71": {
+            "minecraft:variant": {"value": 71}
+            },
+            "compass:color_72": {
+            "minecraft:variant": {"value": 72}
+            },
+            "compass:color_73": {
+            "minecraft:variant": {"value": 73}
+            },
+            "compass:color_74": {
+            "minecraft:variant": {"value": 74}
+            },
+            "compass:color_75": {
+            "minecraft:variant": {"value": 75}
+            },
+            "compass:color_76": {
+            "minecraft:variant": {"value": 76}
+            },
+            "compass:color_77": {
+            "minecraft:variant": {"value": 77}
+            },
+            "compass:color_78": {
+            "minecraft:variant": {"value": 78}
+            },
+            "compass:color_79": {
+            "minecraft:variant": {"value": 79}
+            },
+            "compass:color_80": {
+            "minecraft:variant": {"value": 80}
+            }
+        },
+        "events": {
+            "minecraft:entity_spawned": {
+                "randomize": [
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_0"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_1"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_2"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_3"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_4"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_5"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_6"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_7"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_8"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_9"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_10"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_11"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_12"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_13"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_14"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_15"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_16"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_17"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_18"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_19"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_20"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_21"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_22"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_23"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_24"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_25"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_26"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_27"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_28"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_29"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_30"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_31"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_32"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_33"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_34"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_35"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_36"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_37"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_38"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_39"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_40"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_41"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_42"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_43"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_44"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_45"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_46"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_47"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_48"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_49"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_50"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_51"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_52"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_53"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_54"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_55"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_56"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_57"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_58"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_59"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_60"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_61"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_62"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_63"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_64"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_65"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_66"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_67"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_68"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_69"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_70"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_71"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_72"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_73"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_74"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_75"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_76"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_77"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_78"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_79"]
+                     }
+                    },
+                    {
+                    "add": {
+                      "component_groups": ["compass:color_80"]
+                     }
+                    }
+                ]
+            }
+        }        
+    }
+}

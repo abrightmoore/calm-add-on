@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "twf_calm:carapice_wings",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.chestplate"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "twf_calm_carapice_wings"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.chest",
+				"protection": 11
+			},
+			"minecraft:durability": {
+				"max_durability": 580
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["twf_calm:cell"],
+						"repair_amount": 145
+					}
+				]
+			},
+			"minecraft:fuel": {
+				"duration": 30
+			}
+		}
+	}
+}

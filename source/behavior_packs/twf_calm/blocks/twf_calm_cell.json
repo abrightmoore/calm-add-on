@@ -1,0 +1,26 @@
+{
+    "format_version": "1.16.0", 
+    "minecraft:block": {
+        "components": {
+            "minecraft:block_light_absorption": 1, 
+            "minecraft:block_light_emission": 0.75, 
+            "minecraft:destroy_time": 1, 
+            "minecraft:explosion_resistance": 5, 
+            "minecraft:flammable": {
+                "burn_odds": 0, 
+                "flame_odds": 0
+            }, 
+            "minecraft:friction": 0.6, 
+            "minecraft:map_color": "#0C0008"
+        }, 
+        "description": {
+            "identifier": "twf_calm:cell", 
+            "is_experimental": false,
+			"menu_category": {
+                "category": "nature",
+                "group": "itemGroup.name.life"
+            },
+            "register_to_creative_menu": true
+        }
+    }
+}
